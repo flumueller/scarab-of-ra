@@ -1,0 +1,18 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+
+# Local visual iterations and source archives (not needed to run the game)
+/*-preview.png
+/reference/observations/
+/reference/original/
+/reference/extracted/
+/reference/resources/
+/prototype/dist/assets/menu-music.m4a
+
+# Local hosting/editor metadata
+.openai/

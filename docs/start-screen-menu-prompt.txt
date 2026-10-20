@@ -1,0 +1,10 @@
+Generated with built-in Imagegen. Visual concept only; menu and logo baked into the image.
+
+Use case: ui-mockup. Edit the supplied reference into a finished, beautifully art-directed main menu screen for the adventure game SCARAB OF RA. Preserve the existing background composition, pyramid, lighting, ruins, scarab carving and colors. Add only polished logo typography and menu overlays. Full-bleed widescreen image, no device mockup.
+Logo: in upper area slightly left of center, centered around x=43%, between y=12% and y=35%, keeping the pyramid peak at x=62% unobscured. Large exquisitely designed antique gold serif wordmark "SCARAB", smaller "OF RA" below, refined chiseled lettering, restrained patina and subtle shadow, with a small winged scarab ornament above. Classic adventure box-art elegance interpreted with modern restraint. Title must be perfectly readable.
+Menu: vertically stacked and centered at x=50%, in the quiet dark dune area, starting at y=53% and ending at y=76%. Exact German text, one item per line:
+"Expedition starten"
+"Fortsetzen"
+"Spielanleitung"
+"Einstellungen"
+First item selected: elegant thin rectangular golden outline, barely visible translucent midnight-blue fill, a tiny turquoise-glowing scarab marker at its left. Other items unboxed with ample vertical space, warm ivory lettering, readable elegant serif typography, understated shadows. Subtle localized dark gradient behind menu, no large opaque panel or stone slabs. Carefully balanced professional game UI with generous negative space and consistent alignment. Tiny unobtrusive retro Macintosh Chicago-style pixel lettering at bottom right: "VERSION 0.1". No additional text. Retain the original atmospheric scene, detailed sand and stars. The environment should remain dominant. Highest available resolution.

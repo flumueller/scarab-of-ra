@@ -1,0 +1,26 @@
+
+FUNCTION snakecure [CODE 14 0x0..0x50]
+
+0000: 82680001             or.w         $1(a0), d1
+0004: 4e560000             link.w       a6, #$0
+0008: 486d043a             pea.l        $43a(a5)
+000c: 4ead0112             jsr          $112(a5)
+0010: 3e80                 move.w       d0, (a7)
+0012: 4ead0102             jsr          $102(a5)
+0016: 2ebc00000c56         move.l       #$c56, (a7)
+001c: 4ead040a             jsr          $40a(a5)
+0020: 3ebc000a             move.w       #$a, (a7)
+0024: 4ead050a             jsr          $50a(a5)
+0028: 4a40                 tst.w        d0
+002a: 588f                 addq.l       #$4, a7
+002c: 661e                 bne.b        $4c
+002e: 2f3c00000c82         move.l       #$c82, -(a7)
+0034: 4ead040a             jsr          $40a(a5)
+0038: 3ebc0001             move.w       #$1, (a7)
+003c: 2f2e0008             move.l       $8(a6), -(a7)
+0040: 4ead024a             jsr          $24a(a5)
+0044: 2e80                 move.l       d0, (a7)
+0046: 4ead0542             jsr          $542(a5)
+004a: 508f                 addq.l       #$8, a7
+004c: 4e5e                 unlk         a6
+004e: 4e75                 rts          

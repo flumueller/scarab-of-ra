@@ -1,0 +1,97 @@
+
+FUNCTION lantern [CODE 39 0x0..0xe6]
+
+0000: 83280003             or.b         d1, $3(a0)
+0004: 4e560000             link.w       a6, #$0
+0008: 2f0c                 move.l       a4, -(a7)
+000a: 286e0008             movea.l      $8(a6), a4
+000e: 4aac0010             tst.l        $10(a4)
+0012: 6748                 beq.b        $5c
+0014: 206c0010             movea.l      $10(a4), a0
+0018: 4a680002             tst.w        $2(a0)
+001c: 673e                 beq.b        $5c
+001e: 3f3c0002             move.w       #$2, -(a7)
+0022: 4ead050a             jsr          $50a(a5)
+0026: 4a40                 tst.w        d0
+0028: 548f                 addq.l       #$2, a7
+002a: 6630                 bne.b        $5c
+002c: 206c0010             movea.l      $10(a4), a0
+0030: 53680002             subq.w       #$1, $2(a0)
+0034: 4ead048a             jsr          $48a(a5)
+0038: 206c0010             movea.l      $10(a4), a0
+003c: 4a680002             tst.w        $2(a0)
+0040: 660e                 bne.b        $50
+0042: 2f3c000013b2         move.l       #$13b2, -(a7)
+0048: 4ead040a             jsr          $40a(a5)
+004c: 588f                 addq.l       #$4, a7
+004e: 600c                 bra.b        $5c
+0050: 2f3c000013e0         move.l       #$13e0, -(a7)
+0056: 4ead040a             jsr          $40a(a5)
+005a: 588f                 addq.l       #$4, a7
+005c: 4a2d9699             tst.b        -$6967(a5)
+0060: 6720                 beq.b        $82
+0062: 422d9699             clr.b        -$6967(a5)
+0066: 3f2d9b4a             move.w       -$64b6(a5), -(a7)
+006a: 3f2d9b48             move.w       -$64b8(a5), -(a7)
+006e: 4ead0132             jsr          $132(a5)
+0072: 2e8c                 move.l       a4, (a7)
+0074: 4ead011a             jsr          $11a(a5)
+0078: 3e80                 move.w       d0, (a7)
+007a: 4ead0102             jsr          $102(a5)
+007e: 588f                 addq.l       #$4, a7
+0080: 605e                 bra.b        $e0
+0082: 4aac0010             tst.l        $10(a4)
+0086: 670a                 beq.b        $92
+0088: 206c0010             movea.l      $10(a4), a0
+008c: 4a680002             tst.w        $2(a0)
+0090: 6622                 bne.b        $b4
+0092: 2f3c00001406         move.l       #$1406, -(a7)
+0098: 2f3c00001408         move.l       #$1408, -(a7)
+009e: 2f3c0000140a         move.l       #$140a, -(a7)
+00a4: 2f3c0000140c         move.l       #$140c, -(a7)
+00aa: 4ead051a             jsr          $51a(a5)
+00ae: 4fef0010             lea.l        $10(a7), a7
+00b2: 602c                 bra.b        $e0
+00b4: 1b7c00019699         move.b       #$1, -$6967(a5)
+00ba: 3f2d9b4a             move.w       -$64b6(a5), -(a7)
+00be: 3f2d9b48             move.w       -$64b8(a5), -(a7)
+00c2: 4ead0132             jsr          $132(a5)
+00c6: 3ebc0096             move.w       #$96, (a7)
+00ca: 2f0c                 move.l       a4, -(a7)
+00cc: 486d041a             pea.l        $41a(a5)
+00d0: 42a7                 clr.l        -(a7)
+00d2: 4ead010a             jsr          $10a(a5)
+00d6: 4257                 clr.w        (a7)
+00d8: 4ead013a             jsr          $13a(a5)
+00dc: 4fef0010             lea.l        $10(a7), a7
+00e0: 285f                 movea.l      (a7)+, a4
+00e2: 4e5e                 unlk         a6
+00e4: 4e75                 rts          
+
+FUNCTION droplantern [CODE 39 0xf0..0x128]
+
+00f0: 4e560000             link.w       a6, #$0
+00f4: 4a2d9699             tst.b        -$6967(a5)
+00f8: 672a                 beq.b        $124
+00fa: 2f3c00001424         move.l       #$1424, -(a7)
+0100: 4ead040a             jsr          $40a(a5)
+0104: 422d9699             clr.b        -$6967(a5)
+0108: 3ead9b4a             move.w       -$64b6(a5), (a7)
+010c: 3f2d9b48             move.w       -$64b8(a5), -(a7)
+0110: 4ead0132             jsr          $132(a5)
+0114: 2eae0008             move.l       $8(a6), (a7)
+0118: 4ead011a             jsr          $11a(a5)
+011c: 3e80                 move.w       d0, (a7)
+011e: 4ead0102             jsr          $102(a5)
+0122: 5c8f                 addq.l       #$6, a7
+0124: 4e5e                 unlk         a6
+0126: 4e75                 rts          
+
+FUNCTION throwlantern [CODE 39 0x136..0x148]
+
+0136: 4e560000             link.w       a6, #$0
+013a: 206e0008             movea.l      $8(a6), a0
+013e: 2f10                 move.l       (a0), -(a7)
+0140: 4ebaffae             jsr          $f0(pc)
+0144: 4e5e                 unlk         a6
+0146: 4e75                 rts          

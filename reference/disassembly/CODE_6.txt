@@ -1,0 +1,15 @@
+
+FUNCTION panther [CODE 6 0x0..0x26]
+
+0000: 8248                 .byte        0x82, 0x48
+0002: 00014e56             ori.b        #$56, d1
+0006: 00002f3c             ori.b        #$3c, d0
+000a: 000007c4             ori.b        #$c4, d0
+000e: 4ead040a             jsr          $40a(a5)
+0012: 3ebc000f             move.w       #$f, (a7)
+0016: 4ead050a             jsr          $50a(a5)
+001a: 4440                 neg.w        d0
+001c: 3e80                 move.w       d0, (a7)
+001e: 4ead0492             jsr          $492(a5)
+0022: 4e5e                 unlk         a6
+0024: 4e75                 rts          

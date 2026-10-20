@@ -1,0 +1,903 @@
+=== STRS 0  ===
+You woke up 
+!
+
+Unrecognized part number
+
+You found 
+ (carrying 
+, 
+, and 
+)
+, 
+, and 
+.
+
+That's useless - it's broken.
+
+That item has no use.
+
+This is 
+ in 
+ containing 
+.
+
+You hit it!
+
+Duffer - you missed completely!
+
+Oops - you woke it up…
+
+You hear a sickening crunch.
+
+You don't have that much!
+,There's no point in throwing it at the wall.
+That's too heavy to throw.
+How far?
+You can't throw it that far.
+3OUT OF THINGS -- Sorry, you must throw all or none.
+
+Welcome to the Great Pyramid of RA!
+
+Welcome back to the Great Pyramid of RA!
+
+lioness%s
+es
+a
+Jj1
+monkey%s
+s
+a
+Mm2
+ounce%s of food
+s
+an
+F
+pair%s of nightglasses
+s
+a
+N
+lantern%s
+s
+a
+L
+pint%s of oil
+s
+a
+O
+ounce%s of gold
+s
+an
+G
+spear trap%s
+s
+a
+.…
+message%s
+s
+a
+Z
+deposit box%s
+es
+a
+D
+key%s
+s
+a
+K
+dart%s
+s
+a
+B
+anaesthetic dart gun%s
+s
+an
+R
+plank%s
+s
+a
+P
+ten-foot pole%s
+s
+a
+_
+piece%s of charcoal
+s
+a
+C
+first aid kit%s
+s
+a
+A
+bottle%s of snake bite cure
+s
+a
+W
+wind trap%s
+s
+a
+.…
+poison dart trap%s
+s
+a
+.…
+net%s
+s
+a
+#
+bullwhip%s
+s
+a
+§
+water trap%s
+s
+a
+.…
+cobra%s
+s
+a
+@&3
+picture%s
+s
+a
+%
+benchmark%s
+s
+a
+~~
+Staff%s of RA
+s
+the
+//
+Scarab%s of RA
+s
+the
+,,
+Crown%s of RA
+s
+the
+oo
+small melon%s
+s
+a
+∂∂∂
+compass%s
+es
+a
++
+mummy%s
+s
+a
+xX?
+makemummy%s
+s
+a
+**
+*** Out of Events! ***
+pict
+You were interrupted before you finished focusing.
+
+You don't have that much.
+the Bank of RA does not extend credit.
+No negative numbers, please - 
+2OUT OF THINGS -- sorry, you must drop all or none.
+&There is nothing here you can pick up.
+1You are carrying too much weight to pick that up.
+ You can only pick up some of it.
+That's too much weight.  
+5OUT OF THINGS -- sorry, you can't pick up any of it.
+
+ because of this added weight.
+#You are now moving a little slower,
+Oops - Can't make a scroll bar!
+
+Unrecognized part number
+
+%s 
+%d 
+The monkey dropped 
+.
+
+The monkey twits your nose!
+
+The monkey stole 
+!
+
+The lioness mauls you!!
+
+You were interrupted before cracking the whip.
+
+A resounding CRACK! fills the air.
+
+The noise woke up 
+!
+
+You've been bitten by a poisonous cobra!
+
+Scarab of RA
+Special thanks to Barb Jernigan for advice and
+aid in graphic design.
+
+Special thanks to Steve Lurya and Ken Abrams,
+the original test team.
+
+Version %L.%L
+
+Copyright © 1987 - 1992 by Rick Holzgrafe
+
+Developed with Symantec's Think C™
+
+
+This program is not public domain.  It may not be changed or 
+resold for profit, but it may be freely distributed 
+and copied.
+If you use and enjoy this program, 
+send U.S. $10 to:
+
+Semicolon Software
+
+P.O. Box 371
+
+Cupertino, CA 95015-0371
+
+
+Please make checks payable to Semicolon Software.
+
+This version is free to registered owners of earlier versions.
+
+
+(Click mouse for credits…)
+Congratulations to Rip Rapacki, who made it 
+to level 199 and was stopped only by the limits of 
+version 1.2. (You can go a lot farther in this 
+version. Any challengers?)
+
+
+Thanks to my many outstanding testers and bug hunters!
+
+
+…and a tip of the Crown to Bradley Poulson, my first customer, 
+and to G. Petersen, for the delightful drawing.
+"Holy cats!  That stuff burns going down."
+
+You've finished the bottle, and thrown it away.
+
+3Leaning the plank against the wall seems pointless.Your cast was spoiled when you were interrupted.  You dropped the net.
+
+Tough luck - it dodged!
+
+The net slithers uselessly off the mummy's form onto the ground.
+
+You netted 
+!
+
+Nice try, but you didn't snare it.  
+You may have hit it, though…
+
+You are facing North.
+You are facing East.
+You are facing West.
+You are facing South.
+
+You are lost!Your notes here.
+&You have exhausted this first aid kit.
+Your first aid was interrupted too soon.
+
+anae
+%You have nothing to put the darts in.
+Your gun is empty!
+Your shot was spoiled when you were interrupted.
+
+You hit 
+!
+
+The dart raises a puff of dry, ancient dust when it hits,
+ but nothing else happens.
+
+Duffer - you missed 
+!
+
+The dart hits a wall and shatters.
+
+%You can't write a message in mid-air!
+Sorry, this wall is full.
+$Your charcoal crumbled in your hand.
+You were interrupted while writing!
+
+mess
+Out of memory for things!
+New level:
+bench
+pict
+key
+Staff
+Scarab
+Crown
+Scarab
+makem
+About Scarab of RA…-Game
+Full Status…
+Top Scores…-(
+SoundClick Ahead-(
+Save Game…/S
+-(
+Quit…/QMap
+See Map…/M
+Add To Map/A
+-(
+Which Way Can I Go?Speed	Slowest/1Map Everything/3
+Map Route/5	Fastest/F-(
+
+Set Speed…
+	Inventory(Drop/D(Get Info/I(Throw/T
+(Use/U
+MapNews
+No Scroll Bar.
+
+Scarab of RA
+	Inventory
+No Scroll Bar.
+
+Dean's List
+No Scroll Bar.
+
+lant
+pint
+
+
+ounce
+Poking the wall doesn't help.You woke up 
+!
+
+Poking the mummy raises a dry cloud of dust, 
+but it doesn't seem to notice.
+
+It's definitely paying attention to you now…
+
+The poor thing is helpless in its net.  Leave it alone!
+
+Oops - your pole broke!
+
+You sprang 
+.
+
+Nothing happens.
+
+Clumsy -- you spilled your last bit of oil!
+
+Clumsy -- you spilled a little oil.
+
+Your lantern is empty.
+Your lantern went out when you let go of it.
+
+depo
+You now have %l ounces of gold in the bank!
+
+&There is no way to use your gold here.
+monk
+The shower of falling gold has awakened the monkey.
+
+The monkey snatches up the glittering gold, and runs off with it.
+
+plank
+OUCH!!!  You've been hit by a spear trap!
+
+A sudden gust of wind swirls around you.
+
+lant
+You've been hit by a poisoned dart!
+
+You've been drenched by water.  Your map is ruined!
+
+The door creaks open… 
+…and slams shut after you pass through.
+
+ There is nothing here to unlock.
+You can find no keyhole.
+	How Much?
+mess
+depo
+Bank of RA - Gold Depositpict
+???This is the path to the exit
+This isn't the path to the exitKilroy was here!<-- This way to the Great Egress!The Pharoah is a Phink!!
+'ware the LionessxyzzyWhy did it have to be snakes?!?a sleeping 
+a netted 
+a sprung 
+%s 
+%d 
+broken 
+astonishingly few
+no
+oh, thousands of
+ hundred
+ 
+-
+zero
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+eleven
+twelve
+thirteen
+fourteen
+fifteen
+sixteen
+seventeen
+eighteen
+nineteen
+none
+teen
+twenty
+thirty
+forty
+fifty
+sixty
+seventy
+eighty
+ninety
+Your lantern has burned all its oil!
+
+lant
+#You have nothing to put the oil in.The flask of oil shatters when it hits, splashing oil everywhere.
+
+You now have 
+ which holds 
+ (it was already full)
+.
+
+	How Fast?
+That's too slow!
+.'You can't possibly run any faster than 
+.1You are too heavily loaded to go any faster than 
+You have died from your wounds!
+First aid would be a good idea.$Your injuries are getting serious.  
+#You really aren't hungry right now.
+You don't have that much food.
+You were interrupted after eating only %d ounces of food.
+
+Nice try, big guy, but after %d ounces 
+you're feeling stuffed, and you quit.
+
+You have died of hunger!
+You'd better eat soon.
+You are ravenously hungry.  
+You have found that fabled and ancient artifact, 
+!
+
+only 
+You can %sgo 
+any direction you please.
+
+forward
+left
+right
+backward
+ from where you are now standing.
+
+, or 
+ or 
+, 
+(Are you ready to end your adventure now?
+(You spy a passage leading to sunlight.  
+ounce%s of gold
+Crown
+Staff
+Scarab
+As you pick it up, the overripe melon explodes, scattering seeds everywhere.
+
+As it hits the floor, the overripe melon explodes, scattering seeds everywhere.
+
+Delicious, but not very filling.
+
+
+Save Game as:
+Saved Game
+
+Save Game as:Couldn't open file for writing
+Couldn't flush volumeCouldn't open file for reading
+)from the one that saved the game.  Sorry!,This version of "Scarab of RA" is different 
+Couldn't delete existing fileCouldn't create file
+Couldn't get info on fileCouldn't set info on file
+: error 
+Disk is full
+Couldn't write to file
+ bytes, wrote 
+WARNING: Asked for Couldn't read from file
+ bytes, read WARNING: Asked for Couldn't close fileCouldn't delete file
+Couldn't flush volumeCouldn't close fileYou died of starvation.
+
+
+You died from your wounds.
+
+
+You have asked to resign.  (Quitter!)
+
+
+A Heroic Adventurer returns to the light of day!
+
+
+had
+have
+You %s penetrated to the 
+st
+nd
+rd
+th
+%d%s level of the Great Pyramid of RA.
+
+had
+have
+
+You %s %L ounces of gold in the Bank of RA,
+ worth $%L on the Paris market.
+
+were
+are
+
+You %s in possession of the 
+broken 
+.
+
+, and the 
+, the 
+
+Because you died in the pyramid of RA, some people are 
+calling you a fool even as others praise your 
+courage.  You therefore lose one quarter of the prestige 
+which your adventure would have brought you.
+
+Your final prestige points: %L
+
+
+You are (posthumously) 
+
+If you quit now, you will have %L prestige points.
+
+People will always wonder 
+if you really have the grit to see 
+a difficult job through.  
+But as a result of your exploits, you will be 
+
+All hail!  By bringing the Sacred Relics forth 
+from the fabled pyramid of RA, you have garnered 
+%L prestige points, and untold glory!
+
+You are now 
+
+If you ever get out of here alive, you will have 
+more than %L prestige points.
+
+
+As a result of your adventures, you will be 
+%s.
+
+Crown
+Staff
+Scarab
+just another undergraduate in Archaeology.  Big deal
+undergrad
+a graduate student (with honors) in Archaeology
+graduate
+a graduate student with a Masters in Archaeology
+Masters
+a locally respected Teaching Assistant in Archaeology
+Teaching Asst.
+an Associate Professor in Archaeology
+Asso. Prof.
+a Full Professor in Archaeology, and a local sensation at cocktail parties
+Professor
+a Ph.D. in Archaeology
+Ph.D.
+a Tenured Professor in Archaeology
+Tenured
+Archaeology Department Chairman
+Chairman
+Professor Emeritus in Archaeology
+Emeritus
+a successful author of popular books on Archaeology
+Author
+offered the Mississippi Smith Chair of Archaeology
+Smith Chair
+winner of the Nobel Peace Prize for Archaeology
+Nobel Prize
+a legend in your own time.  Your name will live forever
+Legend!
+Oops - Can't make a scroll bar!died
+quit
+won
+%d.  %s %s on level %d 
+ holding 
+, with 
+, and 
+, 
+ with 
+%L prestige points (%s) and $%L in gold.
+
+The Top Scores list is empty.
+
+Dean's List
+Dean's List Couldn't open file for reading: 
+Dean's ListDean's ListDean's List
+Dean's List&Couldn't open resource fork for file: 
+Couldn't close fileDean's List
+Dean's List Couldn't open file for writing: 
+Dean's List
+Dean's List Couldn't open file for writing: 
+Couldn't close fileAnonymous Bosh
+Sorry, No 'Name' dialog.
+Name
+the Crown
+the Staff
+the Scarab
+the broken Crown
+the broken Staff
+the broken Scarab
+Crown
+Staff
+Scarab
+Scarab
+through your body!
+(The mummy's touch sends a killing shock 
+through your body!
+.The mummy's touch sends an electrifying shock 
+mummy
+You hit it!  The mummy crumbles into dust and blows away!
+
+That one's broken.  You have another one that works, though.
+
+Your compass is broken.
+
+You're already using it - look in the Status window.
+
+(Sorry, help and hints are not available.
+Help Dialog
+Help
+Do you really want a hint?
+  Still want a hint?
+0You really should try to solve this on your own.
+5Wouldn't it be more fun to figure it out by yourself?
+0Last chance to be a hero.  Still want that hint?
+
+=== Hint 1011 Chasing Monkeys ===
+•	If a monkey steals something you've got to get back, chase her.  Drop everything you're carrying first, for speed and to keep the monkey from stealing anything else.  Go as fast as you can and try to keep the monkey in sight.  Use the "peek" buttons at intersections to save time in figuring out which way the monkey went.
+•	Sometimes (rarely) a monkey will simply drop everything she's carrying.  Pick it all up and abandon the chase.
+•	Eventually the fleeing monkey will hole up in a cul-de-sac.  Now you can try to get your property back, as explained in the next few notes.
+•	If you step on a wakeful monkey, the monkey may just run off, or he may steal something else (if you're carrying anything), or he may be startled into dropping something he's carrying.  This last is what you want to happen.  Keep chasing the monkey; every time you catch up to him there's a chance he'll drop what you want.
+•	If a monkey is in a cul-de-sac, turn around before you attack.  Step backwards into the monkey.  This way, if the monkey doesn't drop what you want, you don't waste time turning around to continue the chase.
+•	Be patient.  Sometimes it takes a long time to startle a monkey into dropping what you want.
+
+
+=== Hint 1010 Monkeys ===
+•	Believe it or not, monkeys are the worst.  The Egyptian monkey is a mischievous kleptomaniac.  He will never harm you; he'll just waste your precious time.  If a monkey steals something you've just got to have (such as the key, or a Sacred Relic) then you have got to try to get it back.
+•	Monkeys don't want the things they steal; they just enjoy thievery.  They never pick up things that are just lying on the ground.  So:
+•	If you see a monkey coming,  drop the things you can't afford to lose, then anything else as time permits.
+•	If you're sure you can return to where you are now, drop the key and any Sacred Relics you are carrying.  Make a note on the map so you don't forget where they are.  Pick them up just before leaving the level.
+•	A monkey who steals from you will always snatch one object at random from your inventory.  (He hasn't time to pick and choose.)  Filling your pack with light, unimportant things helps.  So does keeping one ounce of gold or food when you make a deposit or eat.
+•	Monkeys like glittery things.  Try throwing gold to distract a monkey before she steals from you.  Be generous; small bribes will be sneered at.
+
+
+=== Hint 1009 Cobras ===
+•	The thing about cobras is their poisonous bite.  If you are injured in any way, you will generally heal over time.  But the bite of a cobra makes you get ill over time; the two tend to cancel each other out.  If you are bitten more than once, your health will actually decline; the more bites, the faster the decline.
+•	You will eventually shake off the effects of a bite (if you don't die first) but it takes a while.  Fortunately, there is a cure, which you will occasionally find in bottles.  One slug of cure does for one bite.
+
+
+=== Hint 1008 Lions ===
+•	Surprisingly, the lioness is probably the least dangerous animal in the pyramid.  She'll maul you a little bit, then run off.  It's probably better to save your rarer equipment for the other creatures.
+
+
+=== Hint 1007 Animals, Part 2 ===
+•	Feed animals, by throwing food at them.  They usually don't get anything to eat except explorers; a good meal can put them right to sleep.  Be sure to throw enough; small bribes will be ignored.
+•	Throw something else at them.  This will sometimes frighten them away.  Heavy things are best.  Be careful what you throw; some things are breakable if they hit the stone floor instead of a nice, soft animal.
+•	If you are close to an animal, you can try poking it with a ten-foot pole.
+•	A good CRACK! from a bullwhip may intimidate them.  It may also wake up a nearby sleeper.
+•	A net will put an animal out of action permanently.  Nets are heavy and sometimes rare, but they are one of the best defenses against animals.
+•	Another good anti-animal tool is a dart gun.  Both the guns and the darts are quite rare (and the gun is very heavy) but they are valuable.  A well-aimed dart will put an animal to sleep.
+	•	Two or more wakeful animals in the same part of the maze can be a real nightmare, as they get excited and rambunctious.  Wakeful animals never allow each other to pass.  An animal caught between another animal and you may pester you mercilessly until YOU pass IT.
+
+
+=== Hint 1006 Animals, Part 1 ===
+•	A reminder: the author (that's me) feels kindly toward his creatures, and has not provided any way for you to kill them.  The rest of these hints are less violent ways of dealing with animals.
+•	Suffer them.  If you're in good health, it may be the easiest way to get rid of an animal.  After attacking you, most animals will feel they've had enough excitement for a while and will run off and hide.  (You will occasionally encounter them later, cowering motionless but awake in some nook.)
+•	Run away.  This is rarely effective; most animals are very fast (and very agile, they take corners faster than you can).  They are also very patient when following your scent.  However, if it's life or death, you might consider dropping everything (except the key) and running for the exit.
+•	Stand still (use the "wristwatch" button a few times).  Sometimes they are just ambling around, checking things out; if you leave them alone, they might just wander off.  Maybe.
+•	Sometimes being aggressive helps.  Step right into them, as though you were attacking.  They may run off.
+•	Tiptoe past sleeping animals (slowest speed).  The slower you go, the less the chance the sleeper will wake.  Remember that standing over a sleeping animal and turning also can awaken the critter.
+•	Just to warn you –  animals not only move fast, they move silently.  You will often be attacked from the side or from behind, without warning.  The animal may strike and run off so quickly, you will never see it.
+
+
+=== Hint 1005 Traps ===
+•	Traps are usually hidden, and you won't see them.  In fact, if you're lucky enough not to trigger a hidden trap, you may never know it was there.
+•	Sometimes you will spot a hidden trap before reaching it.  (It will just appear to your eyes: one instant nothing, the next you can see a trap.)  The slower you move, the better your chance of spotting them.  It is easier to sneak safely past traps you can see.
+•	Traps can only be tripped once.  After that, they're safe.  You can tell the difference by sight.
+•	You can't tell one kind of trap from another from a distance.  You can tell by stepping on one, even if you don't trigger it.
+•	To get past a trap safely, go at your slowest speed.  That's not a guarantee, but it helps the odds: the slower the better.  If you must turn while standing on a trap, stay at the slow speed until you are ready to move off it.
+•	Stand next to (not on) a trap and poke it with a ten-foot pole.  Sometimes this can trigger the trap – harmlessly, since you're ten feet away.
+•	Planks are the safest way to get past a trap.  Stand next to (not on) the trap and use the plank to cover it.  You can now walk over the plank and the trap safely.  Pick up the plank just before you step off the trap, if you want to keep it.  (This is safe even though it requires good balance to pick up a plank you're standing on.  Fortunately, you are putting yourself through college by performing as a contortionist in a local sideshow, so you will have no problem.)
+•	Where do you suppose the Egyptians got the poison for their dart traps?
+
+
+=== Hint 1004 Finding Things ===
+•	Most of the things you find in the pyramid were left by earlier expeditions which failed.  Since the better-equipped expeditions got farther into the pyramid before dying, you will find the more useful items only on the deeper levels.
+•	Several objects can often be found in a single place.  However, only the one heaviest or most attention-getting object in the pile can be seen.  This means that you may have to gather your courage and shuffle around in a sleeping cobra's nest; it may be sleeping on the Scarab of RA!
+•	You won't find any bones.  The animals ate them all.  (They are all very hungry, since all they ever get to eat in this barren stone monolith is the occasional explorer.)
+
+
+=== Hint 1003 Time and Motion ===
+•	The faster you go, the more ground you can cover while you digest food and burn lantern oil.  But generally the benefits of moving slowly outweigh the benefits of moving quickly.
+•	Every object has weight.  Your maximum speed depends on how much weight you are carrying: more weight, less speed.  It is an unfortunate fact of life that sometimes the most valuable objects are the heaviest.  Also, sometimes bulk counts as weight: planks and ten-foot poles are not so much heavy as simply cumbersome.
+•	Your speed doesn't affect the time it takes to turn left, right, or about face; but it still affects things like triggering traps or waking up dozing animals.
+•	It is your speed when you step onto something that's important; your speed stepping off won't have any effect.
+•	The "wristwatch" button always allows the minimum amount of time to pass, no matter what your speed is.  This often means that nothing obvious will happen until you've clicked it several times.
+
+
+=== Hint 1002 Using the Map ===
+•	Stay at or under speed 5 ("Map Route" on the Speed menu) while exploring unless speed is a life-or-death issue.  Getting lost usually wastes more time than the haste gains. 
+•	The entrance to a level is always at the upper-left corner of the map; that's the northwest corner.  The exit is always at the southeast (lower-right) corner.  The connection between the exit of one level and the entrance to the next is very mystical.
+•	To figure out which way to go at an intersection, look at your map, and think like a sports-car rally navigator.  They say things like "left second opp", which means "turn left at your second opportunity".  (An "opp" is an opportunity to turn, not a forced turn in a winding corridor.)  On the map you will be able to see that in the direction you want to go there is (for example) an immediate left opp, followed by a short section of straight corridor, followed by a forced right turn.  Now put away the map and look at your view in the Pyramid of RA window.  Turn in place until you can see a stretch of corridor with an immediate left opp, followed by a short section of straight corridor, followed by a forced right turn.  That's the way you want to go!
+•	The same trick in reverse can tell you which way you're facing.  Look down the corridor and describe what you see: "Right opp, right and left opp, long cul-de-sac".  Then look at the map.  The circle shows where you are; one of the four directions around the circle should match the description you just mumbled to yourself.  That's which way you're facing.
+•	If your map is destroyed, it's usually worthwhile to try to return to the entrance and start a new map.  Unfortunately, this is most important on the lower, larger levels, where it is also most difficult.
+
+
+=== Hint 1001 Maze Navigation ===
+•	"Left-hand rule" and "right-hand rule" work well in these mazes.  In your imagination, place your hand on the wall to your side (left or right, pick one and then stick with it) and walk forward.  Make whatever turns are necessary to keep that hand on the wall.  Eventually, you will explore the entire maze using this technique.  To retrace your steps, do an "about face" and switch hands.
+•	You cannot go back through an entrance door.  All doors are locked, but there are keyholes only in the exit doors.
+•	A compass is an unbelievably useful aid to navigation.  Too bad you forgot to bring one.
+•	Use the "peer" (hollow arrow) buttons to look around at intersections without moving your feet.  Actually spinning around just to see where you are is the easiest way to get lost, because you can forget which way you came.
+•	Sometimes turning in place doesn't change your view.  You have actually turned, but your view in the new direction is coincidentally just the same as the view in the old direction.  If you think this has happened to you, just be very careful in deciding which way you should be going.  This note is just to warn you that it can happen.
+•	Charcoal can be used to write on the walls.  If you develop a good maze-exploration system using charcoal, write me a note and tell me what it is.
+•	Don't neglect your map.
+
+
+=== Hint 1000 Order and Chaos ===
+	Don't draw hasty conclusions.  Just because you couldn't spring the trap with your ten-foot pole this time doesn't mean it won't work next time.  Some animals are heavy sleepers, some not.  Melons are unpredictable – and so on.
+
+
+=== Hint 1012 The Guardians ===
+	The Guardians of the Sacred Scarab of RA are the greatest dangers in the Pyramid.  They will seek and destroy any who dare defile the Scarab with a mortal's touch.  But these tips should help:
+	• The Guardians are easy to recognize.  They're the ones who look as if their nurses have forgotten about them.
+	• They are slow, but relentless.
+	• There is only one Guardian on each level.  Be watchful; they appear at unpredictable times, and from unpredictable directions.  Look behind you!
+	• Though the Scarab brings their curse, it is also your only defense.  It can be a weapon against them, if you can figure out how to use it.
+	• The Guardians, unlike the animals, can be destroyed.  It's OK; they're already dead anyway.
+
+
+=== Hint 1013 Hieroglyphs ===
+	The hieroglyphs on the walls are taken from "The Book of Knowing the Evolutions of RA, and of Overthrowing Apep".  They have no bearing on your own difficulties, so don't kill yourelf trying to translate them.
+	The English messages on the wall, however, are usually true.
+
+
+=== Hint 0 Menu Title ===
+Hints
+
+=== Hint 1 Window Title ===
+Hints on ^0
+
+=== Help 1000 What's Going On? ===
+	That intrepid archeologist, professor, explorer, and adventurer, Mississipi Smith, now faces his greatest challenge:  a freak sandstorm in Egypt has uncovered the top of the Great Pyramid of RA the Sun-God.  Long thought to be mythical, the discovery of the pyramid has caused great excitement around the world.  Already dozens of explorers, singly and in teams, have entered the pyramid through the door at the very top.  None have ever returned.  You, a lowly undergraduate student in Archaeology, have decided to enter the pyramid on your own and learn its secrets, and (if you can) survive to tell the outside world of its wonders.
+	In the dark of night, you have crept out of camp and in the door at the top of the Great Pyramid.  You have stolen a lantern and some oil for it, but that's all the equipment you were able to take on short notice.  However, you expect to find abandoned food and equipment left behind in the pyramid by the other, earlier expeditions.  (The ones that didn't make it out -- remember?)
+	You'll find in your explorations that the old legends were correct: the pyramid is divided into floors or levels, and each level is a maze whose exit leads to the entrance of the next level down.  The doors are one-way: after entering a level, the door slams behind you and you cannot return through it.  You must find the exit door instead.  Furthermore, the exits are locked: before you can leave a level, you must find the key for its exit.
+	You find other things than keys as you explore: the lost and abandoned detritus of earlier explorers, piles of gold left by ancient RA worshipers, dangerous animals, hidden traps.  You must use your ingenuity and the tools you find to avoid the worst of the hazards.
+	The most exciting of the ancient myths claims that the Sun-God RA owned three sacred talismans: his Crown, his Staff, and his Scarab.  The legend says that the light of the Sun will be returned to the bearer of these priceless relics.  But the legends also warn that the Scarab, most sacred and powerful of the Relics, bears the Curse of RA.  On each level of the Pyramid, a fearsome Guardian will seek to destroy the bearer of the Scarab.  The power of the Scarab itself is your best protection against the Guardians.
+	You realize that you will have to search each level thoroughly, for you do not know where the Relics of RA may be hidden.  But if you can find them and return alive, you will be famous forever!
+
+
+=== Help 1015 Scoring ===
+	Your goal (as a lowly undergraduate) is to gain prestige as a great archaeologist.  You'll see your prestige points mounting up in the status window as you explore.  You'll gain prestige for covering ground, reaching ever-lower levels, coping successfully with hazards, saving gold, and finding the Sacred Relics of RA.
+	If you die, you will lose a lot of prestige (though I'm sure you'll be fondly remembered).
+	If you quit, you will keep all your current prestige (aside from a slight social stigma).
+	If you escape from the Pyramid with all three relics, you will gain a great bonus in prestige.  Your gold will be automatically saved for you, and you'll gain that prestige also.
+	The top scores are kept in the file named "Dean's List".  To erase the list, remove or rename this file.
+
+
+=== Help 1014 The Game Menu ===
+	This menu should be self-explanatory, but here goes anyway.
+	"Full Status…" gives you a complete description of how well you're doing so far.  There are three buttons you can press when you're through reading your status: "Resume" returns you to your game, "See Top Scores" lets you see how well other folks have done in the past, and "Quit" lets you quit the game.  The Quit button won't work unless you're dead, or have won the game, or chose "Quit…" from the Game menu (see below).
+	"Top Scores…" lets you see the records of previous valiant searches for the sacred Scarab of RA.  Like "Full Status…", you can click on buttons labeled "Resume", "See Full Status", and "Quit".
+	The game will "beep" on various errors (such as walking into walls), and produce a sound effect when you trigger a trap.  You can make the game silent by using the "Sound" menu item.  You can control volume as usual with your Control Panel; a setting of zero causes the menu bar to flash instead of producing a sound.
+	"Click Ahead" controls whether you are allowed to click the mouse faster than the "Scarab of RA" window updates.  By default, you can; but if you do, you may run full tilt into a trap or an animal which you could have avoided by clicking more slowly.  Turning off "Click Ahead" enforces caution.
+	"Save Game…" lets you put your game away, to be resumed at some later date.  When you select "Save Game…" a saved-game file will be created on your disk (you can choose what to call it) and you will then be returned to the finder.  To resume, double-click on the saved-game file; the file will be removed and you will find yourself back in the pyramid, right where you left off.  A saved-game file takes about 20 Kbytes on disk, so be sure you've got room for it somewhere.
+	Use "Quit…" when you don't want to play any more, and don't want to save the game.  You will be shown your full status, as if you'd selected "Full Status…" from the menu, but the Quit button will work now.  (So will "Resume", if you change your mind about quitting.)  If your game is worthy of inclusion in the Dean's List, you'll be asked to type in your name after you're through reading your full status.
+
+
+=== Help 1013 Animals ===
+	Animals are the greatest hazards in the pyramid of RA.  In addition to being dangerous, they can be quite confusing if you don't know what to expect.
+	The first thing to know is that animals often move faster than you do.  This means they may take two or more steps for each one of yours.  If you are looking at an animal, and then do something which takes time, and the animal moves during that time, then you will see the animal move.  This game doesn't do any animation, so when an animal moves, you will see the "Scarab of RA" window re-drawn briefly for each step the animal takes.  If you were trying to take a step yourself, you will see your own move first, then the animal's moves afterward.  So don't be startled when your view "flickers" several times when you only clicked the mouse once!
+	Because they are so fast, animals can come up behind you, and strike before you know they are there.  They can then turn and run off, so quickly you will have no chance to see them.  This won't happen often, but it may happen if you are hit just as you go around a corner.
+	The last important thing about animals is really an important thing about the author of the game, who is tired of using computers to kill things (even though they are all only imaginary).  There is no way to kill the animals in the Great Pyramid of RA.  You must find less violent solutions!
+	Animals can be quite difficult to deal with.  Don't get too upset; remember that they are intended to give you a hard time!  If you get terribly frustrated, read the "Hints on Animals" section about tactics for dealing with animals.
+
+
+=== Help 1012 Map Notes ===
+	You can add notes to each square on the map.  The solid polka dot on the map is the notes pointer; it shows the currently selected map square.  The notes for that square will appear in the text rectangle to the left of the map. To add or read notes, just point and click on the map square you want.  The notes pointer will move to that square, and any old notes for that square will appear in the rectangle.  You can add to the notes just by typing.
+	Squares with notes are marked on the map with asterisks * .   When you add new notes, the asterisk for that square will appear the next time you look at the map, or the next time you click on a map square, whichever you do first.
+	If you get a new note half-typed in and then change your mind, the Cancel New Note button will throw away your new note and restore the old one.
+
+
+=== Help 1011 Reading the Map ===
+	The "See Map…" command under the Map menu lets you look at your map.  The map shows only the level you are on; since you can't return to earlier levels, you won't need the maps for them after you leave them.  The map is always drawn to fit neatly on the screen, so the upper levels (which are small mazes) are drawn in a large scale, while the lower levels (which are larger mazes) are drawn in a smaller scale.
+	Map squares which are white are places where you have walked.  Map squares in light gray are places you have mapped, but have not walked.  Map spaces in dark gray are places you have never mapped at all (whether you've actually been there or not).
+	Your location is normally shown with a hollow circle.  But if you move too fast to map (speed 6 or greater) you will become "lost", and your location will not appear on the map.  You can become "found" again only by returning to some place you have already been, and slowing down to mapping speed.
+	Certain disasters can destroy your map.  If this happens, you will be "lost" until and unless you can return to the entrance of the level, and slow down to mapping speed.
+
+
+=== Help 1010 Making a Map ===
+	Every good explorer draws a map as he or she explores unknown territory.  Your map of the mazes of the pyramid of RA is drawn for you automatically, if you are moving slowly enough.
+	At speeds of 5 or less, the places where you actually walk are added to the map as you go.  (The "Map Route" entry in the "Speed" menu selects a speed of 5.)  If you are moving any faster than that, you simply don't have time to map!
+	At speeds of 3 or less, the corridors you look down are also added to the map, even if you don't walk down them.  (This happens only if you actually turn and face down the corridor, by using a solid arrow key.  The hollow arrow keys, for "Peeking", take no game time, and so those keys don't give you time to map.)  The "Map Everything" entry in the "Speed" menu selects a speed of 3.
+	If you are moving faster than 3 but no faster than 5, the "Add to Map" command under the Map menu will add the corridor you're looking at to the map, at a small cost in time.
+
+
+=== Help 1009 Time and Motion ===
+	"Scarab of RA" is not a real-time game.  Nothing happens unless and until you push a button.  However, a certain amount of "game time" will usually pass whenever you do anything (some exceptions will be mentioned below).  As game time passes, the oil in your lantern will burn, your wounds will heal, you will digest food and become hungry, and so on.
+	Most of your time will be spent moving around.  Turning to the left or right, for example, takes one "tick" of the game clock.  Turning "about face" takes two ticks.  Clicking on the "wristwatch" button lets one tick go by.  However, "peeking" (the hollow arrow keys) takes no time at all.
+	How long it takes to step forward or backward is up to you.  You can set your own speed for walking (or running, or crawling) through the maze.  Your speed can range from 1 to 10.  A speed of 1 is the slowest; at this speed, it will take you 10 ticks to take one step.  At a speed of ten, one step takes only one tick.
+	Beware!  If you move too slowly, you may use up your food and oil too fast.  But there are hazards to moving too fast!  For example, there are traps hidden in the floor of the maze.  The slower you go, the better your chance of spotting one before you step on it.  Also, the slower you go, the better your chance of tiptoeing past them without triggering them.
+	Your speed also affects your ability to map; see the Help section called "Mapping".
+	Set and change your speed with the commands in the "Speed" menu.  It has five entries, four of which allow you to easily choose your slowest speed (which is always 1), your fastest speed (10 is the maximum, but if you are carrying a lot of weight, your top speed will be slower), and two useful speeds for mapping.  The fifth entry,  "Set Speed…",  lets you enter any speed you like.  Your current speed is always shown in the status window in the lower-right corner of the screen.
+
+
+=== Help 1008 Using Things ===
+	There are four things you can do with an object in your inventory: Drop it, Get Info on it, Throw it, and Use it.  All of these things are listed in the "Inventory" menu.  For example, to drop your lantern, select it in the Inventory window, then pull down the Inventory menu and choose Drop.  The lantern will disappear from the Inventory window, and will land at your feet (where you can't see it).  The "Pick Up" button will become bright, to show that there is now something at your feet which can be picked up.
+	(As a side effect, the lantern always goes out when you drop it; that's why the "Scarab of RA" window suddenly turned dim and gray.  Most things are unchanged when you drop them; the lantern is one of a very few exceptions.)
+	If you choose Get Info instead of Drop, a line will be printed in the News window describing the item you selected.  Most of the time this won't tell you anything you can't read in the Inventory window, but for some objects (such as the lantern) you can learn something new.
+	Choosing Throw is like choosing Drop: the selected item will disappear from your inventory and appear on the floor of the maze.  But unlike Drop,  throwing an object may damage it when it lands, so be careful what you throw.  You'll be asked how far you want to throw it; the distance is measured in "steps".  That is, throwing something a distance of 2 will leave it in the same place as if you had stepped forward twice and then dropped it.  How far you can throw something depends on how heavy it is.
+	Your final choice is Use.  Different objects have different uses.  For example, if you Use the lantern when it's on, it will turn off, and vice-versa.  Some objects have no use; some are only useful at certain times or in certain places or situations.  Since Use is probably what you'll do most often with the things in your inventory, there is a short-cut: just double-click on the object in the Inventory window.
+
+
+=== Help 1007 Inventory ===
+	The things you are carrying are listed in the Inventory window.  The things you can do with them are listed in the Inventory menu.  (Don't confuse the window with the menu!)
+	To do anything, you must first select an object from the Inventory window.  Just point at the line you want, and click the mouse.  (For example, to do something with the lantern, point at the line that says "a lantern" and click on it).    The line will become highlighted.  Then go up to the Inventory menu and select what you want to do.  If the items in the menu are dim, then you've forgotten to select anything.
+	You can rearrange the things in the Inventory window by dragging them with the mouse: just point at something you want to move, press and hold the mouse button, move the mouse up or down to the new location, and let go.  This is just for your convenience; it doesn't matter what order things are in in the Inventory window.
+	See the next Help section , called "Using Things", to learn more about what you can do with the stuff in your inventory.
+
+
+=== Help 1006 Picking Things Up ===
+	As you travel through the pyramid, you will find equipment and other things lying around.  You can pick these things up by clicking on the "Pick Up" button.  This button is just under the arrow buttons, in the upper-left corner of the screen.  (If the button is dim, there is nothing here you can pick up.  Not everything you find can be picked up!)  Once you've picked a thing up, you'll see it listed in the Inventory window along with everything else you're carrying.
+	You can only see the view down a corridor; you can't look at your feet.  This means that when you're standing right over something, you can't see it.  So don't be fooled: if you can see it, you're still too far away to pick it up.
+
+
+=== Help 1003 Moving Around ===
+	To explore the maze, use the "arrow" buttons in the upper-left corner.  The hollow arrows allow you to peer briefly to left, right, or behind you.  To use them, click on them and hold down the mouse until you are through "peering"; when you release the mouse, your view will return to "straight ahead".  When you "peer", you aren't moving your feet; you're just standing still and craning your neck.  (Try the hollow arrows first, until you get used to the view in the "Scarab of RA" window and the way it changes when you look in different directions.)
+	The buttons with solid curved arrows change the direction you are facing, but they don't change your location (like a soldier doing "left face, right face, about face" while otherwise standing still).  These buttons are like the hollow ones, except that the solid arrows "permanently" affect your view; just click on them and your view changes until you click on some other button.  
+	The two straight arrows move you forward and backward.  These are the only buttons which change your location.  To move forward, click on the up-arrow; to step backwards (without turning around) click on the down-arrow.  Note that to turn a corner you must first get to the intersection, then click on a solid curved arrow to change which way you're facing, then click the up-arrow to move off in the new direction.  (If this sounds confusing, just try it for a bit.  It's not hard.  If you hear a beep, and your view doesn't change, you are trying to walk through a wall.  Change direction and try again.)
+	The button with the wristwatch on it lets you stand still and wait for a little – this is useful sometimes, if you are waiting for an animal to attack or run away.
+	You can use the digit keys on the keypad as substitutes for the arrow, watch, and "Pick Up" buttons.
+
+
+=== Help 1005 Status ===
+	You can see your current status in the little window at the lower-right.  This will tell you how much prestige you have acquired, how much gold (in ounces) you have deposited (not how much is in your pack), and how fast you are going.  "Thermometer" bars will also tell you how healthy you are, how hungry you are, and how much weight you are carrying.
+	For a more complete description of your status, select "Full Status…" from the Game menu.  "Full Status…" and the other items in the Game menu are explained in the Help section called "The Game Menu".
+
+
+=== Help 1004 News ===
+	The widest window is labeled "News".  You'll get short messages of interest in this window, such as the greeting that says "Welcome to the Great Pyramid of RA!"  This window keeps the most recent twenty messages or so; new messages are always highlighted in white-on-black when they first appear.  Use the scroll bar to see recent messages that have scrolled out of the window.
+
+
+=== Help 1002 Seeing Things ===
+	The largest window, labeled "Scarab of Ra", shows you your view of the interior of the pyramid.  In this window you'll see the corridors of the mazes, and often you'll see objects or animals, and Egyptian hieroglyphs on the walls.
+	The view in this window will change as you move through the mazes.  Normally, it changes once each time you click on an arrow button (see the Help section on "Moving Around" to learn about arrow buttons).  But animals often move faster than you, so sometimes your view will change several times for one "click", to show you the motion of an animal.
+	If you have trouble understanding where the walls and doors are at first, use the "Which Way Can I Go?" command under the "Map" menu.  It will tell you which directions you can go from where you're standing.  Soon you'll know at a glance where you can and can't go, and you won't need "Which way?" any more.
+	The "cloud of dots" you can often see in this window is the dimness of distance: your lantern isn't really very bright.
+
+
+=== Help 1001 Getting Started ===
+	These chapters under the Help menu contain everything you need to know about the game.  The Hints menu gives you extra tips and tactics.  If you like solving puzzles and developing your own strategies, don't read the Hints.  This section on "Getting Started" is a quick overview, so you can start playing right away.
+	Click the arrow buttons at the upper-left to move through the maze.  The solid arrows move your feet, changing your location or the direction you're facing; the hollow arrows just temporarily turn your head, so you can "peek" to the side or behind.  You'll find tools and things on the floor; to collect them, stand over them (so they're under your feet where you can't see them) and click the Pick Up button.  The things you've collected appear in the Inventory window; click on one and use the Inventory menu to do something with it.
+	The entrance door to each maze has no keyhole and can't be opened from the inside.  The exit door has a keyhole, and will open when you find and use the key.  It leads to another lower, larger maze.  There's no limit to how deep you can go if you can stay alive.
+	To win, collect the Three Sacred Relics of RA, which are hidden somewhere in the mazes.  If you open an exit door while carrying all three Relics, you'll be given the choice of quitting as a winner, or continuing to play in order to gain a higher score.
+
+=== Help 0 Menu Name ===
+Help
+
+=== Help 1 Window Title ===
+Help on ^0
+
+=== STR  128 Gold price ===
+41025 cents/ounce (9/9/86, Paris afternoon fixing)

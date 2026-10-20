@@ -1,0 +1,17 @@
+
+FUNCTION Adder [CODE 8 0x0..0x2e]
+
+0000: 8258                 or.w         (a0)+, d1
+0002: 00014e56             ori.b        #$56, d1
+0006: 00002f3c             ori.b        #$3c, d0
+000a: 0000084a             ori.b        #$4a, d0
+000e: 4ead040a             jsr          $40a(a5)
+0012: 3ebcfffb             move.w       #$fffb, (a7)
+0016: 4ead0492             jsr          $492(a5)
+001a: 3ebc004b             move.w       #$4b, (a7)
+001e: 42a7                 clr.l        -(a7)
+0020: 486d043a             pea.l        $43a(a5)
+0024: 42a7                 clr.l        -(a7)
+0026: 4ead010a             jsr          $10a(a5)
+002a: 4e5e                 unlk         a6
+002c: 4e75                 rts          

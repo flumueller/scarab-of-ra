@@ -1,0 +1,81 @@
+
+FUNCTION bullwhip [CODE 7 0x0..0x100]
+
+0000: 8250                 or.w         (a0), d1
+0002: 00014e56             ori.b        #$56, d1
+0006: 000048e7             ori.b        #$e7, d0
+000a: 03082f3c             movep.w      $2f3c(a0), d1
+000e: 00020001             ori.b        #$1, d2
+0012: 4ead00fa             jsr          $fa(a5)
+0016: 5540                 subq.w       #$2, d0
+0018: 588f                 addq.l       #$4, a7
+001a: 670e                 beq.b        $2a
+001c: 2f3c000007de         move.l       #$7de, -(a7)
+0022: 4ead040a             jsr          $40a(a5)
+0026: 600000ce             bra.w        $f6
+002a: 2f3c0000080e         move.l       #$80e, -(a7)
+0030: 4ead040a             jsr          $40a(a5)
+0034: 7e01                 moveq        #$1, d7
+0036: 588f                 addq.l       #$4, a7
+0038: 600000b4             bra.w        $ee
+003c: 3c2d9b48             move.w       -$64b8(a5), d6
+0040: 60000094             bra.w        $d6
+0044: 3f07                 move.w       d7, -(a7)
+0046: 3f06                 move.w       d6, -(a7)
+0048: 4ead03aa             jsr          $3aa(a5)
+004c: 3c00                 move.w       d0, d6
+004e: 2ebc00100000         move.l       #$100000, (a7)
+0054: 2006                 move.l       d6, d0
+0056: 48c0                 ext.l        d0
+0058: e988                 lsl.l        #$4, d0
+005a: 204d                 movea.l      a5, a0
+005c: d1c0                 adda.l       d0, a0
+005e: 2f28c740             move.l       -$38c0(a0), -(a7)
+0062: 4ead00ea             jsr          $ea(a5)
+0066: 2840                 movea.l      d0, a4
+0068: 200c                 move.l       a4, d0
+006a: 508f                 addq.l       #$8, a7
+006c: 6768                 beq.b        $d6
+006e: 4a2c0009             tst.b        $9(a4)
+0072: 6b62                 bmi.b        $d6
+0074: 0c2c00010006         cmpi.b       #$1, $6(a4)
+007a: 661c                 bne.b        $98
+007c: 3f3c0003             move.w       #$3, -(a7)
+0080: 4ead050a             jsr          $50a(a5)
+0084: 4a40                 tst.w        d0
+0086: 548f                 addq.l       #$2, a7
+0088: 660e                 bne.b        $98
+008a: 006c0010000a         ori.w        #$10, $a(a4)
+0090: 006c0020000a         ori.w        #$20, $a(a4)
+0096: 603e                 bra.b        $d6
+0098: 4a2c0006             tst.b        $6(a4)
+009c: 6638                 bne.b        $d6
+009e: 2f3c00000832         move.l       #$832, -(a7)
+00a4: 4ead040a             jsr          $40a(a5)
+00a8: 3ebc0001             move.w       #$1, (a7)
+00ac: 2f0c                 move.l       a4, -(a7)
+00ae: 486d97f6             pea.l        -$680a(a5)
+00b2: 4ead0412             jsr          $412(a5)
+00b6: 2ebc00000846         move.l       #$846, (a7)
+00bc: 4ead040a             jsr          $40a(a5)
+00c0: 2e8c                 move.l       a4, (a7)
+00c2: 4ead0202             jsr          $202(a5)
+00c6: 3ead9b4a             move.w       -$64b6(a5), (a7)
+00ca: 3f2d9b48             move.w       -$64b8(a5), -(a7)
+00ce: 4ead0132             jsr          $132(a5)
+00d2: 4fef000e             lea.l        $e(a7), a7
+00d6: 2006                 move.l       d6, d0
+00d8: 48c0                 ext.l        d0
+00da: e988                 lsl.l        #$4, d0
+00dc: 204d                 movea.l      a5, a0
+00de: d1c0                 adda.l       d0, a0
+00e0: 2007                 move.l       d7, d0
+00e2: 48c0                 ext.l        d0
+00e4: c0a8c738             and.l        -$38c8(a0), d0
+00e8: 6600ff5a             bne.w        $44
+00ec: de47                 add.w        d7, d7
+00ee: 0c470008             cmpi.w       #$8, d7
+00f2: 6f00ff48             ble.w        $3c
+00f6: 4cee10c0fff4         movem.l      -$c(a6), d6-d7/a4
+00fc: 4e5e                 unlk         a6
+00fe: 4e75                 rts          

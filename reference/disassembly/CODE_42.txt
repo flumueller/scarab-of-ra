@@ -1,0 +1,96 @@
+
+FUNCTION gold [CODE 42 0x0..0x9c]
+
+0000: 8340                 dc.w         $8340
+0002: 00024e56             ori.b        #$56, d2
+0006: fffe                 dc.w         $fffe
+0008: 2f0c                 move.l       a4, -(a7)
+000a: 286e0008             movea.l      $8(a6), a4
+000e: 2f3c00001452         move.l       #$1452, -(a7)
+0014: 4ead00f2             jsr          $f2(a5)
+0018: 3e80                 move.w       d0, (a7)
+001a: 302d9b48             move.w       -$64b8(a5), d0
+001e: 48c0                 ext.l        d0
+0020: e988                 lsl.l        #$4, d0
+0022: 204d                 movea.l      a5, a0
+0024: d1c0                 adda.l       d0, a0
+0026: 2f28c740             move.l       -$38c0(a0), -(a7)
+002a: 4ead00d2             jsr          $d2(a5)
+002e: 4a80                 tst.l        d0
+0030: 508f                 addq.l       #$8, a7
+0032: 6742                 beq.b        $76
+0034: 4267                 clr.w        -(a7)
+0036: 2f0c                 move.l       a4, -(a7)
+0038: 4ead024a             jsr          $24a(a5)
+003c: 2840                 movea.l      d0, a4
+003e: 200c                 move.l       a4, d0
+0040: 5c8f                 addq.l       #$6, a7
+0042: 6752                 beq.b        $96
+0044: 302c0002             move.w       $2(a4), d0
+0048: 48c0                 ext.l        d0
+004a: d1ad967e             add.l        d0, -$6982(a5)
+004e: 7005                 moveq        #$5, d0
+0050: c1ec0002             muls.w       $2(a4), d0
+0054: d1ad9676             add.l        d0, -$698a(a5)
+0058: 2f2d967e             move.l       -$6982(a5), -(a7)
+005c: 2f3c00001458         move.l       #$1458, -(a7)
+0062: 4ead040a             jsr          $40a(a5)
+0066: 4257                 clr.w        (a7)
+0068: 4ead0462             jsr          $462(a5)
+006c: 2e8c                 move.l       a4, (a7)
+006e: 4ead0542             jsr          $542(a5)
+0072: 508f                 addq.l       #$8, a7
+0074: 6020                 bra.b        $96
+0076: 2f3c00001486         move.l       #$1486, -(a7)
+007c: 2f3c00001488         move.l       #$1488, -(a7)
+0082: 2f3c0000148a         move.l       #$148a, -(a7)
+0088: 2f3c0000148c         move.l       #$148c, -(a7)
+008e: 4ead051a             jsr          $51a(a5)
+0092: 4fef0010             lea.l        $10(a7), a7
+0096: 285f                 movea.l      (a7)+, a4
+0098: 4e5e                 unlk         a6
+009a: 4e75                 rts          
+
+FUNCTION throwgold [CODE 42 0xa4..0x130]
+
+00a4: 4e560000             link.w       a6, #$0
+00a8: 2f0b                 move.l       a3, -(a7)
+00aa: 266e000c             movea.l      $c(a6), a3
+00ae: 200b                 move.l       a3, d0
+00b0: 6776                 beq.b        $128
+00b2: 2f3c000014b4         move.l       #$14b4, -(a7)
+00b8: 4ead00f2             jsr          $f2(a5)
+00bc: b053                 cmp.w        (a3), d0
+00be: 588f                 addq.l       #$4, a7
+00c0: 6666                 bne.b        $128
+00c2: 206e0008             movea.l      $8(a6), a0
+00c6: 2050                 movea.l      (a0), a0
+00c8: 3f280002             move.w       $2(a0), -(a7)
+00cc: 4ead050a             jsr          $50a(a5)
+00d0: 48c0                 ext.l        d0
+00d2: 81fc0010             divs.w       #$10, d0
+00d6: 548f                 addq.l       #$2, a7
+00d8: 674e                 beq.b        $128
+00da: 4a2b0006             tst.b        $6(a3)
+00de: 661e                 bne.b        $fe
+00e0: 2f3c000014ba         move.l       #$14ba, -(a7)
+00e6: 4ead040a             jsr          $40a(a5)
+00ea: 2e8b                 move.l       a3, (a7)
+00ec: 4ead0202             jsr          $202(a5)
+00f0: 3ead9b4a             move.w       -$64b6(a5), (a7)
+00f4: 3f2d9b48             move.w       -$64b8(a5), -(a7)
+00f8: 4ead0132             jsr          $132(a5)
+00fc: 5c8f                 addq.l       #$6, a7
+00fe: 2f3c000014f0         move.l       #$14f0, -(a7)
+0104: 4ead040a             jsr          $40a(a5)
+0108: 006b0010000a         ori.w        #$10, $a(a3)
+010e: 006b0020000a         ori.w        #$20, $a(a3)
+0114: 206e0008             movea.l      $8(a6), a0
+0118: 2e90                 move.l       (a0), (a7)
+011a: 486b0010             pea.l        $10(a3)
+011e: 4ead00da             jsr          $da(a5)
+0122: 206e0008             movea.l      $8(a6), a0
+0126: 4290                 clr.l        (a0)
+0128: 266efffc             movea.l      -$4(a6), a3
+012c: 4e5e                 unlk         a6
+012e: 4e75                 rts          

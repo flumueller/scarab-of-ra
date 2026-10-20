@@ -1,0 +1,38 @@
+
+FUNCTION plank [CODE 17 0x0..0x7e]
+
+0000: 82700001             or.w         $1(a0, d0.w), d1
+0004: 4e560000             link.w       a6, #$0
+0008: 302d9b48             move.w       -$64b8(a5), d0
+000c: 48c0                 ext.l        d0
+000e: e988                 lsl.l        #$4, d0
+0010: 204d                 movea.l      a5, a0
+0012: d1c0                 adda.l       d0, a0
+0014: 302d9b4a             move.w       -$64b6(a5), d0
+0018: 48c0                 ext.l        d0
+001a: c0a8c738             and.l        -$38c8(a0), d0
+001e: 661e                 bne.b        $3e
+0020: 2f3c00000cb4         move.l       #$cb4, -(a7)
+0026: 2f3c00000cb6         move.l       #$cb6, -(a7)
+002c: 2f3c00000cb8         move.l       #$cb8, -(a7)
+0032: 2f3c00000cba         move.l       #$cba, -(a7)
+0038: 4ead051a             jsr          $51a(a5)
+003c: 603c                 bra.b        $7a
+003e: 3f2d9b4a             move.w       -$64b6(a5), -(a7)
+0042: 3f2d9b48             move.w       -$64b8(a5), -(a7)
+0046: 4ead03aa             jsr          $3aa(a5)
+004a: 3b409b48             move.w       d0, -$64b8(a5)
+004e: 4ead0242             jsr          $242(a5)
+0052: 3ead9b4a             move.w       -$64b6(a5), (a7)
+0056: 4ead03ca             jsr          $3ca(a5)
+005a: 3e80                 move.w       d0, (a7)
+005c: 3f2d9b48             move.w       -$64b8(a5), -(a7)
+0060: 4ead03aa             jsr          $3aa(a5)
+0064: 3b409b48             move.w       d0, -$64b8(a5)
+0068: 3e80                 move.w       d0, (a7)
+006a: 4ead057a             jsr          $57a(a5)
+006e: 3ead9b4a             move.w       -$64b6(a5), (a7)
+0072: 3f2d9b48             move.w       -$64b8(a5), -(a7)
+0076: 4ead0132             jsr          $132(a5)
+007a: 4e5e                 unlk         a6
+007c: 4e75                 rts          

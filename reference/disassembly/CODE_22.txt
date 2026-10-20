@@ -1,0 +1,37 @@
+
+FUNCTION firstaid [CODE 22 0x0..0x7a]
+
+0000: 82c0                 divu.w       d0, d1
+0002: 00014e56             ori.b        #$56, d1
+0006: 00002f3c             ori.b        #$3c, d0
+000a: 001e0001             ori.b        #$1, (a6)+
+000e: 4ead00fa             jsr          $fa(a5)
+0012: 0c40001e             cmpi.w       #$1e, d0
+0016: 588f                 addq.l       #$4, a7
+0018: 6650                 bne.b        $6a
+001a: 3f3c000a             move.w       #$a, -(a7)
+001e: 4ead050a             jsr          $50a(a5)
+0022: 3e80                 move.w       d0, (a7)
+0024: 4ead0492             jsr          $492(a5)
+0028: 3ebc000a             move.w       #$a, (a7)
+002c: 4ead050a             jsr          $50a(a5)
+0030: 4a40                 tst.w        d0
+0032: 548f                 addq.l       #$2, a7
+0034: 6640                 bne.b        $76
+0036: 2f3c00000e7e         move.l       #$e7e, -(a7)
+003c: 2f3c00000e80         move.l       #$e80, -(a7)
+0042: 2f3c00000e82         move.l       #$e82, -(a7)
+0048: 2f3c00000e84         move.l       #$e84, -(a7)
+004e: 4ead051a             jsr          $51a(a5)
+0052: 3ebc0001             move.w       #$1, (a7)
+0056: 2f2e0008             move.l       $8(a6), -(a7)
+005a: 4ead024a             jsr          $24a(a5)
+005e: 2e80                 move.l       d0, (a7)
+0060: 4ead0542             jsr          $542(a5)
+0064: 4fef0014             lea.l        $14(a7), a7
+0068: 600c                 bra.b        $76
+006a: 2f3c00000eac         move.l       #$eac, -(a7)
+0070: 4ead040a             jsr          $40a(a5)
+0074: 588f                 addq.l       #$4, a7
+0076: 4e5e                 unlk         a6
+0078: 4e75                 rts          

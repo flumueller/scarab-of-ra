@@ -1,0 +1,8 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {handleDialogKey} from '../dist/dialog-keyboard.js';
+function fixture(){let focused,clicks=0;const control=(tagName='BUTTON')=>({tagName,disabled:false,tabIndex:0,getClientRects:()=>[{}],focus(){focused=this;},click(){clicks++;}});const quantity=control('INPUT'),cancel=control(),pickup=control(),controls=[quantity,cancel,pickup];const dialog={open:true,querySelectorAll:()=>controls,querySelector:()=>pickup,contains:el=>controls.includes(el)};return {dialog,quantity,cancel,pickup,get focused(){return focused;},get clicks(){return clicks;}};}
+function key(key,extra={}){return {key,preventDefault(){this.defaultPrevented=true;},...extra};}
+test('Enter confirms the default pickup even if the browser left focus outside the dialog',()=>{const f=fixture(),e=key('Enter');handleDialogKey(e,f.dialog,null);assert.equal(f.clicks,1);assert.equal(e.defaultPrevented,true);handleDialogKey(key('Enter',{repeat:true}),f.dialog,null);assert.equal(f.clicks,1);});
+test('Tab and Shift+Tab cycle through dialog inputs and buttons without escaping',()=>{const f=fixture();handleDialogKey(key('Tab'),f.dialog,f.pickup);assert.equal(f.focused,f.quantity);handleDialogKey(key('Tab',{shiftKey:true}),f.dialog,f.quantity);assert.equal(f.focused,f.pickup);handleDialogKey(key('Tab'),f.dialog,f.quantity);assert.equal(f.focused,f.cancel);});
+test('Quantity validation, textarea input and browser shortcuts keep their own key handling',()=>{const f=fixture();for(const e of [key('Enter',{defaultPrevented:true}),key('Enter',{isComposing:true}),key('Enter',{metaKey:true})])handleDialogKey(e,f.dialog,f.quantity);handleDialogKey(key('Enter'),f.dialog,{tagName:'TEXTAREA'});assert.equal(f.clicks,0);});

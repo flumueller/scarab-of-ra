@@ -1,0 +1,259 @@
+
+FUNCTION springtrap [CODE 45 0x0..0x58]
+
+0000: 8350                 or.w         d1, (a0)
+0002: 00064e56             ori.b        #$56, d6
+0006: 00002f3c             ori.b        #$3c, d0
+000a: 00001534             ori.b        #$34, d0
+000e: 4ead00f2             jsr          $f2(a5)
+0012: 3e80                 move.w       d0, (a7)
+0014: 302d9b48             move.w       -$64b8(a5), d0
+0018: 48c0                 ext.l        d0
+001a: e988                 lsl.l        #$4, d0
+001c: 204d                 movea.l      a5, a0
+001e: d1c0                 adda.l       d0, a0
+0020: 2f28c740             move.l       -$38c0(a0), -(a7)
+0024: 4ead00d2             jsr          $d2(a5)
+0028: 4a80                 tst.l        d0
+002a: 508f                 addq.l       #$8, a7
+002c: 6704                 beq.b        $32
+002e: 7000                 moveq        #$0, d0
+0030: 6022                 bra.b        $54
+0032: 206e0008             movea.l      $8(a6), a0
+0036: 082800010009         btst.b       #$1, $9(a0)
+003c: 6704                 beq.b        $42
+003e: 7000                 moveq        #$0, d0
+0040: 6012                 bra.b        $54
+0042: 3f3c000f             move.w       #$f, -(a7)
+0046: 4ead050a             jsr          $50a(a5)
+004a: b06d9684             cmp.w        -$697c(a5), d0
+004e: 5cc0                 sge.b        d0
+0050: 4400                 neg.b        d0
+0052: 4880                 ext.w        d0
+0054: 4e5e                 unlk         a6
+0056: 4e75                 rts          
+
+FUNCTION trip [CODE 45 0x66..0x88]
+
+0066: 4e560000             link.w       a6, #$0
+006a: 206e0008             movea.l      $8(a6), a0
+006e: 006800020008         ori.w        #$2, $8(a0)
+0074: 0268feff000a         andi.w       #$feff, $a(a0)
+007a: 117c00010006         move.b       #$1, $6(a0)
+0080: 4eba0236             jsr          $2b8(pc)
+0084: 4e5e                 unlk         a6
+0086: 4e75                 rts          
+
+FUNCTION speartrap [CODE 45 0x90..0xd4]
+
+0090: 4e560000             link.w       a6, #$0
+0094: 2f2e0008             move.l       $8(a6), -(a7)
+0098: 4ebaff6a             jsr          $4(pc)
+009c: 4a40                 tst.w        d0
+009e: 588f                 addq.l       #$4, a7
+00a0: 672e                 beq.b        $d0
+00a2: 2f3c0000153a         move.l       #$153a, -(a7)
+00a8: 4ead040a             jsr          $40a(a5)
+00ac: 2eae0008             move.l       $8(a6), (a7)
+00b0: 4ebaffb4             jsr          $66(pc)
+00b4: 3ebc000a             move.w       #$a, (a7)
+00b8: 4ead050a             jsr          $50a(a5)
+00bc: 7214                 moveq        #$14, d1
+00be: 9240                 sub.w        d0, d1
+00c0: 4441                 neg.w        d1
+00c2: 3e81                 move.w       d1, (a7)
+00c4: 4ead0492             jsr          $492(a5)
+00c8: 4257                 clr.w        (a7)
+00ca: 4ead0462             jsr          $462(a5)
+00ce: 588f                 addq.l       #$4, a7
+00d0: 4e5e                 unlk         a6
+00d2: 4e75                 rts          
+
+FUNCTION windtrap [CODE 45 0xe0..0x138]
+
+00e0: 4e560000             link.w       a6, #$0
+00e4: 2f0c                 move.l       a4, -(a7)
+00e6: 2f2e0008             move.l       $8(a6), -(a7)
+00ea: 4ebaff18             jsr          $4(pc)
+00ee: 4a40                 tst.w        d0
+00f0: 588f                 addq.l       #$4, a7
+00f2: 673e                 beq.b        $132
+00f4: 2f3c00001566         move.l       #$1566, -(a7)
+00fa: 4ead040a             jsr          $40a(a5)
+00fe: 2eae0008             move.l       $8(a6), (a7)
+0102: 4ebaff62             jsr          $66(pc)
+0106: 4a2d9699             tst.b        -$6967(a5)
+010a: 588f                 addq.l       #$4, a7
+010c: 6724                 beq.b        $132
+010e: 2f3c00001590         move.l       #$1590, -(a7)
+0114: 4ead00f2             jsr          $f2(a5)
+0118: 3e80                 move.w       d0, (a7)
+011a: 2f2d9672             move.l       -$698e(a5), -(a7)
+011e: 4ead00d2             jsr          $d2(a5)
+0122: 2840                 movea.l      d0, a4
+0124: 200c                 move.l       a4, d0
+0126: 508f                 addq.l       #$8, a7
+0128: 6708                 beq.b        $132
+012a: 2f0c                 move.l       a4, -(a7)
+012c: 4ead034a             jsr          $34a(a5)
+0130: 588f                 addq.l       #$4, a7
+0132: 285f                 movea.l      (a7)+, a4
+0134: 4e5e                 unlk         a6
+0136: 4e75                 rts          
+
+FUNCTION darttrap [CODE 45 0x144..0x188]
+
+0144: 4e560000             link.w       a6, #$0
+0148: 2f2e0008             move.l       $8(a6), -(a7)
+014c: 4ebafeb6             jsr          $4(pc)
+0150: 4a40                 tst.w        d0
+0152: 588f                 addq.l       #$4, a7
+0154: 672e                 beq.b        $184
+0156: 2f3c00001596         move.l       #$1596, -(a7)
+015c: 4ead040a             jsr          $40a(a5)
+0160: 2eae0008             move.l       $8(a6), (a7)
+0164: 4ebaff00             jsr          $66(pc)
+0168: 3ebcfffb             move.w       #$fffb, (a7)
+016c: 4ead0492             jsr          $492(a5)
+0170: 3ebc004b             move.w       #$4b, (a7)
+0174: 42a7                 clr.l        -(a7)
+0176: 486d043a             pea.l        $43a(a5)
+017a: 42a7                 clr.l        -(a7)
+017c: 4ead010a             jsr          $10a(a5)
+0180: 4fef0010             lea.l        $10(a7), a7
+0184: 4e5e                 unlk         a6
+0186: 4e75                 rts          
+
+FUNCTION watertrap [CODE 45 0x194..0x240]
+
+0194: 4e560000             link.w       a6, #$0
+0198: 2f07                 move.l       d7, -(a7)
+019a: 2f2e0008             move.l       $8(a6), -(a7)
+019e: 4ebafe64             jsr          $4(pc)
+01a2: 4a40                 tst.w        d0
+01a4: 588f                 addq.l       #$4, a7
+01a6: 67000092             beq.w        $23a
+01aa: 2f3c000015bc         move.l       #$15bc, -(a7)
+01b0: 4ead040a             jsr          $40a(a5)
+01b4: 2eae0008             move.l       $8(a6), (a7)
+01b8: 4ebafeac             jsr          $66(pc)
+01bc: 4aadc744             tst.l        -$38bc(a5)
+01c0: 588f                 addq.l       #$4, a7
+01c2: 670a                 beq.b        $1ce
+01c4: 206dc744             movea.l      -$38bc(a5), a0
+01c8: a01f                 dc.w         $a01f
+01ca: 42adc744             clr.l        -$38bc(a5)
+01ce: 7e01                 moveq        #$1, d7
+01d0: 6050                 bra.b        $222
+01d2: 2007                 move.l       d7, d0
+01d4: 48c0                 ext.l        d0
+01d6: e988                 lsl.l        #$4, d0
+01d8: 204d                 movea.l      a5, a0
+01da: d1c0                 adda.l       d0, a0
+01dc: 0268fdffc73a         andi.w       #$fdff, -$38c6(a0)
+01e2: 2007                 move.l       d7, d0
+01e4: 48c0                 ext.l        d0
+01e6: e988                 lsl.l        #$4, d0
+01e8: 204d                 movea.l      a5, a0
+01ea: d1c0                 adda.l       d0, a0
+01ec: 0268dfffc73a         andi.w       #$dfff, -$38c6(a0)
+01f2: 2007                 move.l       d7, d0
+01f4: 48c0                 ext.l        d0
+01f6: e988                 lsl.l        #$4, d0
+01f8: 204d                 movea.l      a5, a0
+01fa: d1c0                 adda.l       d0, a0
+01fc: 4aa8c744             tst.l        -$38bc(a0)
+0200: 671e                 beq.b        $220
+0202: 2007                 move.l       d7, d0
+0204: 48c0                 ext.l        d0
+0206: e988                 lsl.l        #$4, d0
+0208: 204d                 movea.l      a5, a0
+020a: d1c0                 adda.l       d0, a0
+020c: 2068c744             movea.l      -$38bc(a0), a0
+0210: a01f                 dc.w         $a01f
+0212: 2007                 move.l       d7, d0
+0214: 48c0                 ext.l        d0
+0216: e988                 lsl.l        #$4, d0
+0218: 204d                 movea.l      a5, a0
+021a: d1c0                 adda.l       d0, a0
+021c: 42a8c744             clr.l        -$38bc(a0)
+0220: 5247                 addq.w       #$1, d7
+0222: 302d968c             move.w       -$6974(a5), d0
+0226: c1ed968e             muls.w       -$6972(a5), d0
+022a: b047                 cmp.w        d7, d0
+022c: 6ea4                 bgt.b        $1d2
+022e: 4a6d9b48             tst.w        -$64b8(a5)
+0232: 6706                 beq.b        $23a
+0234: 1b7c0001969a         move.b       #$1, -$6966(a5)
+023a: 2e1f                 move.l       (a7)+, d7
+023c: 4e5e                 unlk         a6
+023e: 4e75                 rts          
+
+FUNCTION SilentSound [CODE 45 0x24c..0x2aa]
+
+024c: 2f3ca8050001         move.l       #$a8050001, -(a7)
+0252: 4ead0332             jsr          $332(a5)
+0256: 4a40                 tst.w        d0
+0258: 588f                 addq.l       #$4, a7
+025a: 660e                 bne.b        $26a
+025c: 4267                 clr.w        -(a7)
+025e: 3f3c0190             move.w       #$190, -(a7)
+0262: 42a7                 clr.l        -(a7)
+0264: a986                 dc.w         $a986
+0266: a9f4                 dc.w         $a9f4
+0268: 548f                 addq.l       #$2, a7
+026a: 4e75                 rts          
+026c: 4e56fffc             link.w       a6, #$fffc
+0270: 2f07                 move.l       d7, -(a7)
+0272: 7e00                 moveq        #$0, d7
+0274: 6028                 bra.b        $29e
+0276: 4267                 clr.w        -(a7)
+0278: a94c                 dc.w         $a94c
+027a: 43eefffc             lea.l        -$4(a6), a1
+027e: 307c0006             movea.w      #$6, a0
+0282: a03b                 dc.w         $a03b
+0284: 2280                 move.l       d0, (a1)
+0286: 4267                 clr.w        -(a7)
+0288: a94c                 dc.w         $a94c
+028a: 0c470002             cmpi.w       #$2, d7
+028e: 6c0c                 bge.b        $29c
+0290: 43eefffc             lea.l        -$4(a6), a1
+0294: 307c0006             movea.w      #$6, a0
+0298: a03b                 dc.w         $a03b
+029a: 2280                 move.l       d0, (a1)
+029c: 5247                 addq.w       #$1, d7
+029e: 0c470003             cmpi.w       #$3, d7
+02a2: 6dd2                 blt.b        $276
+02a4: 2e1f                 move.l       (a7)+, d7
+02a6: 4e5e                 unlk         a6
+02a8: 4e75                 rts          
+
+FUNCTION TrapSound [CODE 45 0x2b8..0x308]
+
+02b8: 4e56fffa             link.w       a6, #$fffa
+02bc: 4a2d969f             tst.b        -$6961(a5)
+02c0: 6642                 bne.b        $304
+02c2: 41eefffa             lea.l        -$6(a6), a0
+02c6: 4218                 clr.b        (a0)+
+02c8: 10b80260             move.b       $260.w, (a0)
+02cc: 4a6efffa             tst.w        -$6(a6)
+02d0: 6606                 bne.b        $2d8
+02d2: 4ebaff98             jsr          $26c(pc)
+02d6: 602c                 bra.b        $304
+02d8: 42a7                 clr.l        -(a7)
+02da: 2f3c736e6420         move.l       #$736e6420, -(a7)
+02e0: 3f3c2000             move.w       #$2000, -(a7)
+02e4: a9a0                 dc.w         $a9a0
+02e6: 2d5ffffc             move.l       (a7)+, -$4(a6)
+02ea: 4aaefffc             tst.l        -$4(a6)
+02ee: 6606                 bne.b        $2f6
+02f0: 4ebaff7a             jsr          $26c(pc)
+02f4: 600e                 bra.b        $304
+02f6: 4267                 clr.w        -(a7)
+02f8: 42a7                 clr.l        -(a7)
+02fa: 2f2efffc             move.l       -$4(a6), -(a7)
+02fe: 4227                 clr.b        -(a7)
+0300: a805                 dc.w         $a805
+0302: 548f                 addq.l       #$2, a7
+0304: 4e5e                 unlk         a6
+0306: 4e75                 rts          

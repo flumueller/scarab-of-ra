@@ -1,0 +1,2180 @@
+[
+  {
+    "level": 1,
+    "side": 3,
+    "observedMin": 0,
+    "observedMax": 0,
+    "mean": 0,
+    "eligible": [
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "pole",
+        "weight": 15,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "whip",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "side": 4,
+    "observedMin": 1,
+    "observedMax": 1,
+    "mean": 1,
+    "eligible": [
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "pole",
+        "weight": 15,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "whip",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "side": 5,
+    "observedMin": 2,
+    "observedMax": 3,
+    "mean": 2.54,
+    "eligible": [
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "plank",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "pole",
+        "weight": 15,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "whip",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "side": 6,
+    "observedMin": 2,
+    "observedMax": 4,
+    "mean": 2.995,
+    "eligible": [
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "plank",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "pole",
+        "weight": 15,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "whip",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "side": 7,
+    "observedMin": 3,
+    "observedMax": 6,
+    "mean": 4.465,
+    "eligible": [
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "plank",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "pole",
+        "weight": 15,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "whip",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "side": 8,
+    "observedMin": 4,
+    "observedMax": 9,
+    "mean": 6.47,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "plank",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "whip",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "side": 9,
+    "observedMin": 5,
+    "observedMax": 12,
+    "mean": 8.61,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "plank",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cure",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "whip",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "side": 10,
+    "observedMin": 6,
+    "observedMax": 15,
+    "mean": 10.32,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "plank",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "aid",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cure",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "whip",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 9,
+    "side": 11,
+    "observedMin": 7,
+    "observedMax": 18,
+    "mean": 12.43,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "aid",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cure",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 10,
+    "side": 12,
+    "observedMin": 8,
+    "observedMax": 21,
+    "mean": 14.485,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "darts",
+        "weight": 10,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "type": "gun",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "aid",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cure",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 11,
+    "side": 13,
+    "observedMin": 9,
+    "observedMax": 24,
+    "mean": 16.495,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "darts",
+        "weight": 10,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "type": "gun",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "aid",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cure",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 12,
+    "side": 14,
+    "observedMin": 10,
+    "observedMax": 28,
+    "mean": 18.73,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "darts",
+        "weight": 10,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "type": "gun",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "aid",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cure",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 13,
+    "side": 15,
+    "observedMin": 12,
+    "observedMax": 33,
+    "mean": 21.99,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "darts",
+        "weight": 10,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "type": "gun",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "aid",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cure",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 14,
+    "side": 16,
+    "observedMin": 13,
+    "observedMax": 37,
+    "mean": 24.62,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "darts",
+        "weight": 10,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "type": "gun",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "aid",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cure",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 15,
+    "side": 17,
+    "observedMin": 15,
+    "observedMax": 42,
+    "mean": 27.7,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "darts",
+        "weight": 10,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "type": "gun",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "aid",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cure",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 16,
+    "side": 18,
+    "observedMin": 17,
+    "observedMax": 48,
+    "mean": 34.1,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "darts",
+        "weight": 10,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "type": "gun",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "aid",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cure",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 17,
+    "side": 19,
+    "observedMin": 19,
+    "observedMax": 54,
+    "mean": 37.93,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "darts",
+        "weight": 10,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "type": "gun",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "aid",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cure",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "level": 18,
+    "side": 20,
+    "observedMin": 21,
+    "observedMax": 60,
+    "mean": 39.78,
+    "eligible": [
+      {
+        "type": "lioness",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "monkey",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "food",
+        "weight": 10,
+        "min": 1,
+        "max": 12
+      },
+      {
+        "type": "glasses",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "oil",
+        "weight": 10,
+        "min": 1,
+        "max": 10
+      },
+      {
+        "type": "gold",
+        "weight": 60,
+        "min": 1,
+        "max": 160
+      },
+      {
+        "type": "spear",
+        "weight": 30,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "message",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "deposit",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "darts",
+        "weight": 10,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "type": "gun",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "charcoal",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "aid",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cure",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "wind",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "poisontrap",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "net",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "water",
+        "weight": 3,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "cobra",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "melon",
+        "weight": 10,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "type": "compass",
+        "weight": 1,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  }
+]

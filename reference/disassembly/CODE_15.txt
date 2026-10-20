@@ -1,0 +1,68 @@
+
+FUNCTION pickmelon [CODE 15 0x0..0x90]
+
+0000: 85700002             or.w         d2, $2(a0, d0.w)
+0004: 4e560000             link.w       a6, #$0
+0008: 2f0c                 move.l       a4, -(a7)
+000a: 286e0008             movea.l      $8(a6), a4
+000e: 0c2c00020006         cmpi.b       #$2, $6(a4)
+0014: 6c74                 bge.b        $8a
+0016: 522c0006             addq.b       #$1, $6(a4)
+001a: 3f3c0003             move.w       #$3, -(a7)
+001e: 4ead050a             jsr          $50a(a5)
+0022: 4a40                 tst.w        d0
+0024: 548f                 addq.l       #$2, a7
+0026: 6762                 beq.b        $8a
+0028: 4a2c000a             tst.b        $a(a4)
+002c: 6a1a                 bpl.b        $48
+002e: 2f3c00001cea         move.l       #$1cea, -(a7)
+0034: 4ead040a             jsr          $40a(a5)
+0038: 2e8c                 move.l       a4, (a7)
+003a: 4ead009a             jsr          $9a(a5)
+003e: 2e8c                 move.l       a4, (a7)
+0040: 4ead024a             jsr          $24a(a5)
+0044: 588f                 addq.l       #$4, a7
+0046: 6022                 bra.b        $6a
+0048: 2f3c00001d38         move.l       #$1d38, -(a7)
+004e: 4ead040a             jsr          $40a(a5)
+0052: 2e8c                 move.l       a4, (a7)
+0054: 302d9b48             move.w       -$64b8(a5), d0
+0058: 48c0                 ext.l        d0
+005a: e988                 lsl.l        #$4, d0
+005c: 204d                 movea.l      a5, a0
+005e: d1c0                 adda.l       d0, a0
+0060: 4868c740             pea.l        -$38c0(a0)
+0064: 4ead00e2             jsr          $e2(a5)
+0068: 508f                 addq.l       #$8, a7
+006a: 2f0c                 move.l       a4, -(a7)
+006c: 4ead0542             jsr          $542(a5)
+0070: 3ebc0005             move.w       #$5, (a7)
+0074: 4ead050a             jsr          $50a(a5)
+0078: 5240                 addq.w       #$1, d0
+007a: 4440                 neg.w        d0
+007c: 3e80                 move.w       d0, (a7)
+007e: 4ead0492             jsr          $492(a5)
+0082: 4257                 clr.w        (a7)
+0084: 4ead0462             jsr          $462(a5)
+0088: 588f                 addq.l       #$4, a7
+008a: 285f                 movea.l      (a7)+, a4
+008c: 4e5e                 unlk         a6
+008e: 4e75                 rts          
+
+FUNCTION eatmelon [CODE 15 0x9c..0xd6]
+
+009c: 4e560000             link.w       a6, #$0
+00a0: 2f2e0008             move.l       $8(a6), -(a7)
+00a4: 4ead024a             jsr          $24a(a5)
+00a8: 2eae0008             move.l       $8(a6), (a7)
+00ac: 4ead0542             jsr          $542(a5)
+00b0: 526d9688             addq.w       #$1, -$6978(a5)
+00b4: 4ead048a             jsr          $48a(a5)
+00b8: 4257                 clr.w        (a7)
+00ba: 4ead0462             jsr          $462(a5)
+00be: 2ebc00001d8a         move.l       #$1d8a, (a7)
+00c4: 4ead040a             jsr          $40a(a5)
+00c8: 2ebc00010000         move.l       #$10000, (a7)
+00ce: 4ead00fa             jsr          $fa(a5)
+00d2: 4e5e                 unlk         a6
+00d4: 4e75                 rts          

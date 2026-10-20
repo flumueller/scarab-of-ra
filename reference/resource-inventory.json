@@ -1,0 +1,1906 @@
+[
+  {
+    "type": "STRS",
+    "id": 0,
+    "name": null,
+    "size": 11446,
+    "file": "STRS_0.bin",
+    "sha256": "e52f420c9973e96686b652badd1a49561297f5b3d009f86fc1a9fcfaeaa1307b"
+  },
+  {
+    "type": "DATA",
+    "id": 0,
+    "name": null,
+    "size": 1884,
+    "file": "DATA_0.bin",
+    "sha256": "58e4b30e5772468ff3dbc0df07a501ff583282ea01aae68dc3993c0e37b1ec1b"
+  },
+  {
+    "type": "ZERO",
+    "id": 0,
+    "name": null,
+    "size": 682,
+    "file": "ZERO_0.bin",
+    "sha256": "0c39a60152f973ff2fd5b652abe4b635c2b23afa33e3de947dff93ac13bd3e5e"
+  },
+  {
+    "type": "DREL",
+    "id": 0,
+    "name": null,
+    "size": 522,
+    "file": "DREL_0.bin",
+    "sha256": "61cdc7c86e8c271895bd58e5e5c39d8418a22234ce077dc9b981bd19142741e8"
+  },
+  {
+    "type": "CODE",
+    "id": 2,
+    "name": null,
+    "size": 18626,
+    "file": "CODE_2.bin",
+    "sha256": "f1c82b99d821588c1b1706be9a08f38f59a1de408abbe90b164d464f022a273a"
+  },
+  {
+    "type": "CODE",
+    "id": 3,
+    "name": null,
+    "size": 3118,
+    "file": "CODE_3.bin",
+    "sha256": "34c51e926bc0e692960323d0c7c3aefab5ab5796201f049397687dcf822d8a85"
+  },
+  {
+    "type": "CODE",
+    "id": 5,
+    "name": null,
+    "size": 352,
+    "file": "CODE_5.bin",
+    "sha256": "b185cb262832cda0bbb4ea9dffcc80957e2ee5843f77fdeea625ba6eba6c699b"
+  },
+  {
+    "type": "CODE",
+    "id": 6,
+    "name": null,
+    "size": 48,
+    "file": "CODE_6.bin",
+    "sha256": "102bae83db8b1082df0de58a61832020a9147356424171a1a487317e895de5f1"
+  },
+  {
+    "type": "CODE",
+    "id": 7,
+    "name": null,
+    "size": 268,
+    "file": "CODE_7.bin",
+    "sha256": "fc92910e4dc975f850617b1dcae5da6d3cc935f60caafda47878f8ef482831ce"
+  },
+  {
+    "type": "CODE",
+    "id": 8,
+    "name": null,
+    "size": 54,
+    "file": "CODE_8.bin",
+    "sha256": "084d89beb98a191a86ee78a3f75869e98426359c1b8f12a3459ebb7f49c78491"
+  },
+  {
+    "type": "CODE",
+    "id": 11,
+    "name": null,
+    "size": 750,
+    "file": "CODE_11.bin",
+    "sha256": "3c4809486cc173e1ddaeedb09f32e94ac608214080ca51c04b5760ec6968eb20"
+  },
+  {
+    "type": "CODE",
+    "id": 14,
+    "name": null,
+    "size": 92,
+    "file": "CODE_14.bin",
+    "sha256": "1e1ed777d9b0c494407b78224179409fa83d1921a634ba2f70e5cd14c04681e8"
+  },
+  {
+    "type": "CODE",
+    "id": 17,
+    "name": null,
+    "size": 134,
+    "file": "CODE_17.bin",
+    "sha256": "114482845435a762186ff5fff3ba113f32a41e1fa07a9cc3582f8f77af99632f"
+  },
+  {
+    "type": "CODE",
+    "id": 18,
+    "name": null,
+    "size": 560,
+    "file": "CODE_18.bin",
+    "sha256": "830a67f63d35a21c2699088d301824ce7091c7b36815dad77dfc340cdac37409"
+  },
+  {
+    "type": "CODE",
+    "id": 19,
+    "name": null,
+    "size": 1152,
+    "file": "CODE_19.bin",
+    "sha256": "4db40bdd8d229469558a45d73883f9804664c3a743a8ebbf768d07d9e3b7c2bd"
+  },
+  {
+    "type": "CODE",
+    "id": 21,
+    "name": null,
+    "size": 2692,
+    "file": "CODE_21.bin",
+    "sha256": "e0048ec7d844d854b7aa34cdc6d06e548997204a04eeb189b328ddbb1180210b"
+  },
+  {
+    "type": "CODE",
+    "id": 22,
+    "name": null,
+    "size": 134,
+    "file": "CODE_22.bin",
+    "sha256": "f4962450d6ea75505fd851fe3aa7979b5334d726390019db9b76da4410d0525a"
+  },
+  {
+    "type": "CODE",
+    "id": 24,
+    "name": null,
+    "size": 466,
+    "file": "CODE_24.bin",
+    "sha256": "dffc151bba933cf5d9ae8da9a9b057af4d7d2fe2ace63a1dd342b1b978039ed1"
+  },
+  {
+    "type": "CODE",
+    "id": 25,
+    "name": null,
+    "size": 4,
+    "file": "CODE_25.bin",
+    "sha256": "3309ea4add62d6a8c2bc34be97a9063fa174eee0147037cb6beec2974fe9fea4"
+  },
+  {
+    "type": "CODE",
+    "id": 26,
+    "name": null,
+    "size": 536,
+    "file": "CODE_26.bin",
+    "sha256": "0222520d92c2282bea1baf2b2df73fdf38a74dec13899c551bcecd8813e4a627"
+  },
+  {
+    "type": "CODE",
+    "id": 30,
+    "name": null,
+    "size": 1398,
+    "file": "CODE_30.bin",
+    "sha256": "ef619621ada55d177a5d5eca5b8a0d8e7b003ae909f2905d6678d95ab6fcb8e9"
+  },
+  {
+    "type": "CODE",
+    "id": 10,
+    "name": null,
+    "size": 1990,
+    "file": "CODE_10.bin",
+    "sha256": "6a9f6cc91c2a178b660d9c56466b8de7a289e4769dc618310017c630b58e242f"
+  },
+  {
+    "type": "CODE",
+    "id": 32,
+    "name": null,
+    "size": 662,
+    "file": "CODE_32.bin",
+    "sha256": "56649598b50b23399c27b05c2c27deaca7655f0fcd11fae15340c75301e6c5d3"
+  },
+  {
+    "type": "CODE",
+    "id": 39,
+    "name": null,
+    "size": 344,
+    "file": "CODE_39.bin",
+    "sha256": "c5750477a03e69e083f7e2f79ba3e117c7e7e9202210e5e35a6edc4a9849fe05"
+  },
+  {
+    "type": "CODE",
+    "id": 42,
+    "name": null,
+    "size": 316,
+    "file": "CODE_42.bin",
+    "sha256": "d969df3fdbf3ae11434399bce1b1f3e2811031b69b8ad1f0c6e4d845dfc6de12"
+  },
+  {
+    "type": "CODE",
+    "id": 45,
+    "name": null,
+    "size": 788,
+    "file": "CODE_45.bin",
+    "sha256": "1a29cd9f61241d4b80c5c1522de95d71a56e271bfebb958229c0b4fc051481ce"
+  },
+  {
+    "type": "CODE",
+    "id": 4,
+    "name": null,
+    "size": 222,
+    "file": "CODE_4.bin",
+    "sha256": "c8d8de990f1eb3ef1377e305a49501ae52f5ac5b3e9d20541b608bf9d7f5af6f"
+  },
+  {
+    "type": "CODE",
+    "id": 9,
+    "name": null,
+    "size": 9766,
+    "file": "CODE_9.bin",
+    "sha256": "ad6d4a7b64bbd2770d4131af31193a9a48d9353b0ae3cfb02e5e09a76b6033bd"
+  },
+  {
+    "type": "CODE",
+    "id": 13,
+    "name": null,
+    "size": 308,
+    "file": "CODE_13.bin",
+    "sha256": "860d00654bc00df1419dd0a5737b53cc0d418a8ceb6653e1efbf1ce951f5741d"
+  },
+  {
+    "type": "CODE",
+    "id": 15,
+    "name": null,
+    "size": 226,
+    "file": "CODE_15.bin",
+    "sha256": "18c64b55d353099613b4927c0779494e9ba8a6bb712b523be837dc3deb0ed629"
+  },
+  {
+    "type": "CODE",
+    "id": 16,
+    "name": null,
+    "size": 4,
+    "file": "CODE_16.bin",
+    "sha256": "3309ea4add62d6a8c2bc34be97a9063fa174eee0147037cb6beec2974fe9fea4"
+  },
+  {
+    "type": "CODE",
+    "id": 23,
+    "name": null,
+    "size": 5136,
+    "file": "CODE_23.bin",
+    "sha256": "32929fa09b96bdcd4a2149fbc802c106c51829cec01ecc2b656b950ebf826d09"
+  },
+  {
+    "type": "CODE",
+    "id": 27,
+    "name": null,
+    "size": 4886,
+    "file": "CODE_27.bin",
+    "sha256": "4f36404212fc481c1992ab40438f03f84251a0767d5aa34ee368d3febb88948f"
+  },
+  {
+    "type": "CODE",
+    "id": 28,
+    "name": null,
+    "size": 474,
+    "file": "CODE_28.bin",
+    "sha256": "f3989d6313cc9db764a4cecac7c49252210980b72aa296456e42ce77684f0eff"
+  },
+  {
+    "type": "CODE",
+    "id": 20,
+    "name": null,
+    "size": 228,
+    "file": "CODE_20.bin",
+    "sha256": "3648052969e4bac9c48977a4315f87fbaab0c123a00204887201550dbf9cb183"
+  },
+  {
+    "type": "CODE",
+    "id": 29,
+    "name": null,
+    "size": 2458,
+    "file": "CODE_29.bin",
+    "sha256": "8ffa65364c057c242716ca884c88d92c711eb69e5e5da15a2e604be573cf6658"
+  },
+  {
+    "type": "CODE",
+    "id": 1,
+    "name": null,
+    "size": 1038,
+    "file": "CODE_1.bin",
+    "sha256": "380dcc1018c9625304dde8dab3361dd0e632da7134e031ae1b658be4599be2c7"
+  },
+  {
+    "type": "CODE",
+    "id": 0,
+    "name": null,
+    "size": 1632,
+    "file": "CODE_0.bin",
+    "sha256": "726aa1154cb900e164ae8068b522195f0b4a6b253b804dd5f6ddc0f1b4e2153f"
+  },
+  {
+    "type": "CREL",
+    "id": 2,
+    "name": null,
+    "size": 100,
+    "file": "CREL_2.bin",
+    "sha256": "f13c40c4e83f73d95bed034e21694fb1c6ff1c5ab0b7aee57c2735acd54c02a3"
+  },
+  {
+    "type": "CREL",
+    "id": 3,
+    "name": null,
+    "size": 84,
+    "file": "CREL_3.bin",
+    "sha256": "1385b6cd76109b8d925e16fbbf763bd68c6af06e56dd40ec6fe6604da29b5a83"
+  },
+  {
+    "type": "CREL",
+    "id": 5,
+    "name": null,
+    "size": 10,
+    "file": "CREL_5.bin",
+    "sha256": "d8e732bfd4649624c358187a3313305566fb3d60a61c3fd4e99891a12a71fb1f"
+  },
+  {
+    "type": "CREL",
+    "id": 6,
+    "name": null,
+    "size": 2,
+    "file": "CREL_6.bin",
+    "sha256": "f09a7a12954169ae595d12d870e69a4c0092003157d72523d626d2a3990241e2"
+  },
+  {
+    "type": "CREL",
+    "id": 7,
+    "name": null,
+    "size": 8,
+    "file": "CREL_7.bin",
+    "sha256": "1dc6e1adfb235e709b8d8cd773e472b529f93ee1ea4b96249b76a33562e5339d"
+  },
+  {
+    "type": "CREL",
+    "id": 8,
+    "name": null,
+    "size": 2,
+    "file": "CREL_8.bin",
+    "sha256": "f09a7a12954169ae595d12d870e69a4c0092003157d72523d626d2a3990241e2"
+  },
+  {
+    "type": "CREL",
+    "id": 11,
+    "name": null,
+    "size": 46,
+    "file": "CREL_11.bin",
+    "sha256": "cbbf2016186b5dfb59963ea548cd6762f0586893dceb7bed5ad6d32994f971ea"
+  },
+  {
+    "type": "CREL",
+    "id": 14,
+    "name": null,
+    "size": 4,
+    "file": "CREL_14.bin",
+    "sha256": "741c1eea0db82efcc2740ebb612a7b38c192e74631a4b6141b04156b1a26f4d6"
+  },
+  {
+    "type": "CREL",
+    "id": 17,
+    "name": null,
+    "size": 8,
+    "file": "CREL_17.bin",
+    "sha256": "a0c736f8a3a92d74f2745571d64d4ec0b36accc01f4e7536bb2e4d80a936ec7b"
+  },
+  {
+    "type": "CREL",
+    "id": 18,
+    "name": null,
+    "size": 14,
+    "file": "CREL_18.bin",
+    "sha256": "2f1934fbf875b2b78588fbf0b177380700f5d5964f5f00da1851a61395db140d"
+  },
+  {
+    "type": "CREL",
+    "id": 21,
+    "name": null,
+    "size": 42,
+    "file": "CREL_21.bin",
+    "sha256": "9c6ec0281481e0010c65dbacf20d1d9c270612fa00fcb27bcc8d5313b3ce6e71"
+  },
+  {
+    "type": "CREL",
+    "id": 22,
+    "name": null,
+    "size": 10,
+    "file": "CREL_22.bin",
+    "sha256": "6d863c9e241fbe5997a4f3ce3fa1f10cde2114352f8521ed305cf665670ee784"
+  },
+  {
+    "type": "CREL",
+    "id": 24,
+    "name": null,
+    "size": 34,
+    "file": "CREL_24.bin",
+    "sha256": "1661b44911b209ae0353298bba00dc30d9a60aa18bbf1c14806c248b6d1a8589"
+  },
+  {
+    "type": "CREL",
+    "id": 26,
+    "name": null,
+    "size": 36,
+    "file": "CREL_26.bin",
+    "sha256": "ad102efb9b155c0924a7d40077d861d4b1babb09bc6cc74e19bc2477b2da88ff"
+  },
+  {
+    "type": "CREL",
+    "id": 30,
+    "name": null,
+    "size": 18,
+    "file": "CREL_30.bin",
+    "sha256": "1081b199493655b582670ca982f6131fedd8e90dfd0aad94e07fa2630abf83e0"
+  },
+  {
+    "type": "CREL",
+    "id": 10,
+    "name": null,
+    "size": 90,
+    "file": "CREL_10.bin",
+    "sha256": "664b8d766d54acd0bc49fcb2da029d484e200a7e7730fa866b80db6af64805d6"
+  },
+  {
+    "type": "CREL",
+    "id": 32,
+    "name": null,
+    "size": 28,
+    "file": "CREL_32.bin",
+    "sha256": "00638c4fecd4b32a6ced1c99dcb2490ad0d956fc95acd43193b541b344c3ae18"
+  },
+  {
+    "type": "CREL",
+    "id": 39,
+    "name": null,
+    "size": 14,
+    "file": "CREL_39.bin",
+    "sha256": "ca4cbe09b24aa0167857cd024a23d5d2e9beca304a5bee8df5c206a9c9928a15"
+  },
+  {
+    "type": "CREL",
+    "id": 42,
+    "name": null,
+    "size": 18,
+    "file": "CREL_42.bin",
+    "sha256": "a3296d86a613f6cf6e94afba98fce270e24869a96d6411921ffc89f8b6779899"
+  },
+  {
+    "type": "CREL",
+    "id": 45,
+    "name": null,
+    "size": 12,
+    "file": "CREL_45.bin",
+    "sha256": "4aa0c7c45c4544f360cce0f5a5e33b9f3ba30b02a3b1653f09b39401ab841159"
+  },
+  {
+    "type": "CREL",
+    "id": 4,
+    "name": null,
+    "size": 20,
+    "file": "CREL_4.bin",
+    "sha256": "517072b93abf9449154dcf82822382f65dd165d4c571ca3934f09575087b6471"
+  },
+  {
+    "type": "CREL",
+    "id": 9,
+    "name": null,
+    "size": 170,
+    "file": "CREL_9.bin",
+    "sha256": "dd6d86f20f953e0c732e22a6e5fc6d64c30a4305c7268043bd1ac78146c7f445"
+  },
+  {
+    "type": "CREL",
+    "id": 13,
+    "name": null,
+    "size": 10,
+    "file": "CREL_13.bin",
+    "sha256": "c52fa025dc855ae95c937c6b3c8b9782aa29c27921dbdfc08e9895645c6c94bb"
+  },
+  {
+    "type": "CREL",
+    "id": 15,
+    "name": null,
+    "size": 6,
+    "file": "CREL_15.bin",
+    "sha256": "c25c0cd8b8c464ec4ff9a134003334bc4bc01e17a5d6cb2f5e219a7bb12f9433"
+  },
+  {
+    "type": "CREL",
+    "id": 23,
+    "name": null,
+    "size": 54,
+    "file": "CREL_23.bin",
+    "sha256": "26915b81258c97d947e1a1bd5b8d4cceee16a5c08b041db3688cab614211224e"
+  },
+  {
+    "type": "CREL",
+    "id": 27,
+    "name": null,
+    "size": 178,
+    "file": "CREL_27.bin",
+    "sha256": "4a1149ff7ec83a2f7f5c502e0f4a882aa175141e96f377b3d2dcde2a390ab4a8"
+  },
+  {
+    "type": "CREL",
+    "id": 28,
+    "name": null,
+    "size": 22,
+    "file": "CREL_28.bin",
+    "sha256": "191d9de8c604c9e187e6f28998d24031f8defee8a9494152cde9e7353f1b7662"
+  },
+  {
+    "type": "CREL",
+    "id": 20,
+    "name": null,
+    "size": 6,
+    "file": "CREL_20.bin",
+    "sha256": "dee2d6f41664fda2997a799bcccc13f80664ded937644e15d90ad600a30fe4b5"
+  },
+  {
+    "type": "CREL",
+    "id": 29,
+    "name": null,
+    "size": 58,
+    "file": "CREL_29.bin",
+    "sha256": "603f05a239aad435a65ce31c04199864751afa1c772cae9b556a972ee669f0fa"
+  },
+  {
+    "type": "SIZE",
+    "id": -1,
+    "name": null,
+    "size": 10,
+    "file": "SIZE_-1.bin",
+    "sha256": "035d02e87a0dc3038189119649c563671cfc8efc84aeff219673e16699a4d165"
+  },
+  {
+    "type": "snd ",
+    "id": 8192,
+    "name": "Trap",
+    "size": 3338,
+    "file": "snd__8192.bin",
+    "sha256": "cf232d6e4a002ee3f5ccd17b18d2337a4feda1d111b766cea5e0dffc81018d9b"
+  },
+  {
+    "type": "vers",
+    "id": 2,
+    "name": null,
+    "size": 22,
+    "file": "vers_2.bin",
+    "sha256": "d9f14e77bc4aa0f2bb25904a1d0a0cae94842c0b48f1105d147e0bed563b59db"
+  },
+  {
+    "type": "vers",
+    "id": 1,
+    "name": null,
+    "size": 59,
+    "file": "vers_1.bin",
+    "sha256": "832218d17eaa0d287fec9cdb1f67902bfd96e44f6c0808b3fa1d941228040819"
+  },
+  {
+    "type": "Hint",
+    "id": 1011,
+    "name": "Chasing Monkeys",
+    "size": 1211,
+    "file": "Hint_1011.bin",
+    "sha256": "dadf167ef350de5c7077b20158d0bbd7b2d47f8e9f89706b2a21de41339916d9"
+  },
+  {
+    "type": "Hint",
+    "id": 1010,
+    "name": "Monkeys",
+    "size": 1157,
+    "file": "Hint_1010.bin",
+    "sha256": "abd26f9086606eb04e2f9aa9d019809260407f53572d249270bc1e9b4062eed7"
+  },
+  {
+    "type": "Hint",
+    "id": 1009,
+    "name": "Cobras",
+    "size": 534,
+    "file": "Hint_1009.bin",
+    "sha256": "f18735807059aed3fe1ff18e3988c6737ffc5a69079bf339ee4b770df81704d4"
+  },
+  {
+    "type": "Hint",
+    "id": 1008,
+    "name": "Lions",
+    "size": 204,
+    "file": "Hint_1008.bin",
+    "sha256": "6c6c08a34cc4289eb1c44f0cdaf98d0d9045fd7ca24e98d3c0be26dbfc5adaee"
+  },
+  {
+    "type": "Hint",
+    "id": 1007,
+    "name": "Animals, Part 2",
+    "size": 1179,
+    "file": "Hint_1007.bin",
+    "sha256": "932f845df3a97f9818b77616e56492a301c50ce01f6445f17afdea232e9fee2c"
+  },
+  {
+    "type": "Hint",
+    "id": 1006,
+    "name": "Animals, Part 1",
+    "size": 1488,
+    "file": "Hint_1006.bin",
+    "sha256": "79c28a76fc63699a6a1688f6bc7ccdcf3385c8c9b9d38e10f16addc5c3afabed"
+  },
+  {
+    "type": "Hint",
+    "id": 1005,
+    "name": "Traps",
+    "size": 1562,
+    "file": "Hint_1005.bin",
+    "sha256": "ce44cab9f3b71a372b16b366422cbb9a0681dd21d620b86e2d4f1fb0d448ee83"
+  },
+  {
+    "type": "Hint",
+    "id": 1004,
+    "name": "Finding Things",
+    "size": 696,
+    "file": "Hint_1004.bin",
+    "sha256": "4c0ff7cbb60383a86b7e1a9dbb6dbd649df132d87c53ccf31d8bdcb121fe9b3e"
+  },
+  {
+    "type": "Hint",
+    "id": 1003,
+    "name": "Time and Motion",
+    "size": 972,
+    "file": "Hint_1003.bin",
+    "sha256": "aa1f2cda4a8a26869c8f1dc9445b02b808ec5d68ec2123b253cd633ff863225c"
+  },
+  {
+    "type": "Hint",
+    "id": 1002,
+    "name": "Using the Map",
+    "size": 1758,
+    "file": "Hint_1002.bin",
+    "sha256": "1ae10967f620be633f7f09797f24ebdbb76f3706ff73bbb0970b641fb5156554"
+  },
+  {
+    "type": "Hint",
+    "id": 1001,
+    "name": "Maze Navigation",
+    "size": 1338,
+    "file": "Hint_1001.bin",
+    "sha256": "6daba5bcbbeb2468d77d4674f1207173bc5893fe4dc631f2f50f389dad74bcd8"
+  },
+  {
+    "type": "Hint",
+    "id": 1000,
+    "name": "Order and Chaos",
+    "size": 229,
+    "file": "Hint_1000.bin",
+    "sha256": "000a17c6f0c4fcc670aba3ecde5080029608016d5f0bf13ebeaac0df7d4cc1cb"
+  },
+  {
+    "type": "Hint",
+    "id": 1012,
+    "name": "The Guardians",
+    "size": 726,
+    "file": "Hint_1012.bin",
+    "sha256": "f085e628c2ba1a6a4adc0a917963d18c2f1c9da4e0646897802506bdc5b2991d"
+  },
+  {
+    "type": "Hint",
+    "id": 1013,
+    "name": "Hieroglyphs",
+    "size": 273,
+    "file": "Hint_1013.bin",
+    "sha256": "c82178edd9035e4230637cc377fba944165396c1be876dba8f8ade616dfd114b"
+  },
+  {
+    "type": "Hint",
+    "id": 0,
+    "name": "Menu Title",
+    "size": 5,
+    "file": "Hint_0.bin",
+    "sha256": "6f3951c42d1eee168a7ecb2c403942b31cb2c4fe946eeabe18065cfc51ea712a"
+  },
+  {
+    "type": "Hint",
+    "id": 1,
+    "name": "Window Title",
+    "size": 11,
+    "file": "Hint_1.bin",
+    "sha256": "c6e0a71d1f09ee898b46f784d4a72d988e268acb3e8925cc2df4869862c0f174"
+  },
+  {
+    "type": "Help",
+    "id": 1000,
+    "name": "What's Going On?",
+    "size": 2449,
+    "file": "Help_1000.bin",
+    "sha256": "2e2238453fdebdf65e90abf6898c9a430bb377798100cd09669cd348bed1219e"
+  },
+  {
+    "type": "Help",
+    "id": 1015,
+    "name": "Scoring",
+    "size": 790,
+    "file": "Help_1015.bin",
+    "sha256": "d0dfe351a929d314f2360a3085a8b2e075fedbf5f8f8ae401acfc534dc13b37a"
+  },
+  {
+    "type": "Help",
+    "id": 1014,
+    "name": "The Game Menu",
+    "size": 2180,
+    "file": "Help_1014.bin",
+    "sha256": "7f0d9a8657119e6aab384d15a03a1c197af95d87d2b5745e95977aa45d422c1d"
+  },
+  {
+    "type": "Help",
+    "id": 1013,
+    "name": "Animals",
+    "size": 1603,
+    "file": "Help_1013.bin",
+    "sha256": "0c668e0ea321065297c307038b1af8ca511d25c56f5da90c7c71326c4d396755"
+  },
+  {
+    "type": "Help",
+    "id": 1012,
+    "name": "Map Notes",
+    "size": 828,
+    "file": "Help_1012.bin",
+    "sha256": "894b6105a9cc90a0197ceaf879bbba18f1fce7c84c268cda474b039e62bc2669"
+  },
+  {
+    "type": "Help",
+    "id": 1011,
+    "name": "Reading the Map",
+    "size": 1133,
+    "file": "Help_1011.bin",
+    "sha256": "bde26e14ff37ef9b8c8d515e764a85980d399f0a8fc53dca62f11f41eea0df03"
+  },
+  {
+    "type": "Help",
+    "id": 1010,
+    "name": "Making a Map",
+    "size": 980,
+    "file": "Help_1010.bin",
+    "sha256": "96623c8aff646222779b80367e74b112f72786814ac873959ee4ba5c27794bc7"
+  },
+  {
+    "type": "Help",
+    "id": 1009,
+    "name": "Time and Motion",
+    "size": 1894,
+    "file": "Help_1009.bin",
+    "sha256": "5e56d5229488e4acc76a8d18fdf2e940aa0a598c9ddc552db548dc74083df17d"
+  },
+  {
+    "type": "Help",
+    "id": 1008,
+    "name": "Using Things",
+    "size": 1940,
+    "file": "Help_1008.bin",
+    "sha256": "79405b30962886a528ab23b40db1f8ca4e506e8aef9cd48478702a9dce8742c1"
+  },
+  {
+    "type": "Help",
+    "id": 1007,
+    "name": "Inventory",
+    "size": 1040,
+    "file": "Help_1007.bin",
+    "sha256": "83deebc430afd62f9513be3c2df098b9e03472c8f786d218f66e5feb84ce5749"
+  },
+  {
+    "type": "Help",
+    "id": 1006,
+    "name": "Picking Things Up",
+    "size": 704,
+    "file": "Help_1006.bin",
+    "sha256": "947cffe52d7013221822fb154e00c9fa29361235ee02153839b079e81f9d523d"
+  },
+  {
+    "type": "Help",
+    "id": 1003,
+    "name": "Moving Around",
+    "size": 1815,
+    "file": "Help_1003.bin",
+    "sha256": "2eb6153e5a6956b2ba3f7e33d9a271b64eb688c1f8f80704764beb300c008a14"
+  },
+  {
+    "type": "Help",
+    "id": 1005,
+    "name": "Status",
+    "size": 556,
+    "file": "Help_1005.bin",
+    "sha256": "9c55130506aaba41bb710ac556954340c89e9dbbbef481f1ab33cbce8682dbed"
+  },
+  {
+    "type": "Help",
+    "id": 1004,
+    "name": "News",
+    "size": 379,
+    "file": "Help_1004.bin",
+    "sha256": "41d17909fe7f662f0ce5771a4a7b5ec8b3faa7b12fcb0bac1845ad5ad8932952"
+  },
+  {
+    "type": "Help",
+    "id": 1002,
+    "name": "Seeing Things",
+    "size": 1012,
+    "file": "Help_1002.bin",
+    "sha256": "d5f754f6fe5e5eb4d9f48ca1ed4ebe1d93d9ced96260f292f3e723e13831e889"
+  },
+  {
+    "type": "Help",
+    "id": 1001,
+    "name": "Getting Started",
+    "size": 1373,
+    "file": "Help_1001.bin",
+    "sha256": "e940c4d7590f4c151f3877c881d6a278877f306c6cab037b459684d8b7537d41"
+  },
+  {
+    "type": "Help",
+    "id": 0,
+    "name": "Menu Name",
+    "size": 4,
+    "file": "Help_0.bin",
+    "sha256": "b79cac926e0b2e347e72cc91d5174037c9e17ae7733fd7bdb570f71b10cd7bfc"
+  },
+  {
+    "type": "Help",
+    "id": 1,
+    "name": "Window Title",
+    "size": 10,
+    "file": "Help_1.bin",
+    "sha256": "83d4488eebb35e4d46c84ee352782e376c5d7d7b85df748beed18d9235330baf"
+  },
+  {
+    "type": "SSRA",
+    "id": 0,
+    "name": null,
+    "size": 43,
+    "file": "SSRA_0.bin",
+    "sha256": "e9a55ff941ad35e01f72af772bcc51cff3ce7b5610593a375718d5ff068a24ed"
+  },
+  {
+    "type": "STR ",
+    "id": 128,
+    "name": "Gold price",
+    "size": 51,
+    "file": "STR__128.bin",
+    "sha256": "9cb7d1ad7b21989a8ca5e5ae70dc2f749c9c9418d8c17076e66d47a2f24d1e2e"
+  },
+  {
+    "type": "CNTL",
+    "id": 257,
+    "name": "Scroll",
+    "size": 33,
+    "file": "CNTL_257.bin",
+    "sha256": "6bef038799a0480ff385755bd3530420342f9778a3322812b1f8e43a68e3b921"
+  },
+  {
+    "type": "ALRT",
+    "id": 260,
+    "name": "AskUser",
+    "size": 12,
+    "file": "ALRT_260.bin",
+    "sha256": "eee82f7781d1c1eab0bf4cce10025529f5533b96c7a1681ee0c32363f4349951"
+  },
+  {
+    "type": "ALRT",
+    "id": 259,
+    "name": "TellUser",
+    "size": 12,
+    "file": "ALRT_259.bin",
+    "sha256": "d9d085e645eea457a59bb87d9b5c13f419ecd2c40e590cfd517ee839f4930870"
+  },
+  {
+    "type": "ALRT",
+    "id": 400,
+    "name": "No Sound Manager",
+    "size": 12,
+    "file": "ALRT_400.bin",
+    "sha256": "77a9516b3d86457e016399cb6cb47a2813c33a5121364f583cbe458d942887b5"
+  },
+  {
+    "type": "PICT",
+    "id": 161,
+    "name": null,
+    "size": 149,
+    "file": "PICT_161.bin",
+    "sha256": "7066b4dbc8e7f39306800ee1eebd86cd8dc2110bcbb1f8741f72b1e7db698d88"
+  },
+  {
+    "type": "PICT",
+    "id": 160,
+    "name": null,
+    "size": 161,
+    "file": "PICT_160.bin",
+    "sha256": "cf554e7482462d8449851414587c7f6dde14ac00085f64f62f9d69867817dad9"
+  },
+  {
+    "type": "PICT",
+    "id": 1000,
+    "name": "Creation, existence, evolution",
+    "size": 347,
+    "file": "PICT_1000.bin",
+    "sha256": "d379b8350c390acfe2ccd62ea4fb37c86111e878fe9c88c15f38843175bfb72c"
+  },
+  {
+    "type": "PICT",
+    "id": 1001,
+    "name": "Ibis",
+    "size": 410,
+    "file": "PICT_1001.bin",
+    "sha256": "c8064a81c5fd5e95a948dd6eb127d6c276072e2c4ff50d4a3d7e23603eb3a786"
+  },
+  {
+    "type": "PICT",
+    "id": 1003,
+    "name": "\"A Place\"",
+    "size": 342,
+    "file": "PICT_1003.bin",
+    "sha256": "1f2a95a36a037a555ac0c1be5a78193b5cb4e2918272de2b540597c37845aca9"
+  },
+  {
+    "type": "PICT",
+    "id": 1004,
+    "name": "RA the Sun-God",
+    "size": 844,
+    "file": "PICT_1004.bin",
+    "sha256": "af8b7ae52dfd443d1a06c4321213e99b2d3a7a979ba223ba5c300a007ebb08b1"
+  },
+  {
+    "type": "PICT",
+    "id": 1002,
+    "name": "From, with, of, in",
+    "size": 507,
+    "file": "PICT_1002.bin",
+    "sha256": "87448a1427161717e9008ce9eddcdd2000e41bef48af7381f50155bcd59cbd75"
+  },
+  {
+    "type": "PICT",
+    "id": 1005,
+    "name": "\"Coming Forth\"",
+    "size": 741,
+    "file": "PICT_1005.bin",
+    "sha256": "8294611eaa70db5c6df40f06ba62b641cce4c7cbb82aa5009b80f77e68ed4aec"
+  },
+  {
+    "type": "PICT",
+    "id": 1006,
+    "name": "Maa",
+    "size": 927,
+    "file": "PICT_1006.bin",
+    "sha256": "f3a7e94e13b861fb022c161e813745c0504053e5eaa7eaa8d6a75a92be917d4d"
+  },
+  {
+    "type": "PICT",
+    "id": 1007,
+    "name": "\"My Eye\" or \"The Eye of RA\"",
+    "size": 558,
+    "file": "PICT_1007.bin",
+    "sha256": "77c6fee91196448c71c35b26b2364d1255544916c42fe5c46e81e045775c7180"
+  },
+  {
+    "type": "PICT",
+    "id": 1008,
+    "name": "\"Creeping Things\"",
+    "size": 439,
+    "file": "PICT_1008.bin",
+    "sha256": "85e5d211daed2125d0ec606591de517fbd8f6784ac9cfd9eb87c028811a8cb5e"
+  },
+  {
+    "type": "PICT",
+    "id": 10003,
+    "name": null,
+    "size": 169,
+    "file": "PICT_10003.bin",
+    "sha256": "1cdb38306a5daf0887323bcb9f76d2e43ae6a3b5d9dcece1d837bb23564389a0"
+  },
+  {
+    "type": "PICT",
+    "id": 10001,
+    "name": null,
+    "size": 169,
+    "file": "PICT_10001.bin",
+    "sha256": "6c94220d4e169bd1cda9f759f98df16042c71f443f70c70347abcc98b8666d83"
+  },
+  {
+    "type": "PICT",
+    "id": 10002,
+    "name": null,
+    "size": 169,
+    "file": "PICT_10002.bin",
+    "sha256": "59355540850986eaf5f5a6b7702360c2578265899fe3c33728c4644b378dfab9"
+  },
+  {
+    "type": "PICT",
+    "id": 10000,
+    "name": null,
+    "size": 169,
+    "file": "PICT_10000.bin",
+    "sha256": "b91c4c537e0e3391b1e0636d0d67524e32bb032f1d2f000f91f2c389425e86f5"
+  },
+  {
+    "type": "PICT",
+    "id": 133,
+    "name": null,
+    "size": 125,
+    "file": "PICT_133.bin",
+    "sha256": "3603687bb47858d99495b81d9274abdb22c9535b7bad723422b07a9de46d55f5"
+  },
+  {
+    "type": "PICT",
+    "id": 132,
+    "name": null,
+    "size": 125,
+    "file": "PICT_132.bin",
+    "sha256": "5059361e2d193f6d628e7e497ccce47bbea704604f2a355dfe3aaf8e819d11e6"
+  },
+  {
+    "type": "PICT",
+    "id": 131,
+    "name": null,
+    "size": 125,
+    "file": "PICT_131.bin",
+    "sha256": "3c8ccb5b7f0e62e58ef7061276c667f4d52343fc539dde87f52ecde72b416b35"
+  },
+  {
+    "type": "PICT",
+    "id": 130,
+    "name": null,
+    "size": 125,
+    "file": "PICT_130.bin",
+    "sha256": "06853ec962afa7bf6548fadbefc2b275d122509a14d17a402696e1ff79675ecc"
+  },
+  {
+    "type": "PICT",
+    "id": 129,
+    "name": null,
+    "size": 125,
+    "file": "PICT_129.bin",
+    "sha256": "f4a10185947ecebb8099c9d5b84df8f7b36790e3f8fe5c29f534fa0a6bcd364c"
+  },
+  {
+    "type": "PICT",
+    "id": 128,
+    "name": null,
+    "size": 125,
+    "file": "PICT_128.bin",
+    "sha256": "e9175f985dc35e951443e1876b5ffda69dd8f7ad3d7240c3f789a5cfa5514fb5"
+  },
+  {
+    "type": "PICT",
+    "id": 152,
+    "name": null,
+    "size": 125,
+    "file": "PICT_152.bin",
+    "sha256": "5d2269af7d0568ba3508e950b4617f034f621d747edd3f2456402395fd59e3fb"
+  },
+  {
+    "type": "PICT",
+    "id": 151,
+    "name": null,
+    "size": 125,
+    "file": "PICT_151.bin",
+    "sha256": "a417554b69e8be3cb919b68b1a018bc8692ca153b6dc9027c1d375fa7bf086d0"
+  },
+  {
+    "type": "PICT",
+    "id": 150,
+    "name": null,
+    "size": 125,
+    "file": "PICT_150.bin",
+    "sha256": "61a959bf43079cde6532efe92d6d303c223102274e439da899ef5bdbf79febaa"
+  },
+  {
+    "type": "PICT",
+    "id": 134,
+    "name": null,
+    "size": 2286,
+    "file": "PICT_134.bin",
+    "sha256": "a6a46cbb4c1e13066af2ac17a9a54f33b5ab92931abc4b425649da0721c40080"
+  },
+  {
+    "type": "PICT",
+    "id": 135,
+    "name": null,
+    "size": 631,
+    "file": "PICT_135.bin",
+    "sha256": "ce326271d514d468c980c2b2915135626a527746fe496bf7b8989f14e8f9902e"
+  },
+  {
+    "type": "PICT",
+    "id": 136,
+    "name": null,
+    "size": 287,
+    "file": "PICT_136.bin",
+    "sha256": "ac3f58bb8c17e9cecde4c5b1356cde35a5dc39f5576375118d023e4c872b2bfb"
+  },
+  {
+    "type": "PICT",
+    "id": 20182,
+    "name": null,
+    "size": 239,
+    "file": "PICT_20182.bin",
+    "sha256": "7c83c33cbf80e0c86ce89bf3582cf6bb0506db12c3e8bdd80bc84a47196c5f66"
+  },
+  {
+    "type": "PICT",
+    "id": 20201,
+    "name": null,
+    "size": 360,
+    "file": "PICT_20201.bin",
+    "sha256": "43527fb6ec8e86efd26c7ed1bf96b808e770ca6d5faf7e1776a8bcbc5b36ccf1"
+  },
+  {
+    "type": "PICT",
+    "id": 20046,
+    "name": null,
+    "size": 301,
+    "file": "PICT_20046.bin",
+    "sha256": "08242f2cd8984e84dfb0236e94a22d5435bdf43fe3b7333ba9d506cd862facd0"
+  },
+  {
+    "type": "PICT",
+    "id": 20067,
+    "name": null,
+    "size": 93,
+    "file": "PICT_20067.bin",
+    "sha256": "9da8628cec5db1b9a7abbaca47c80fc6e7c0c7b9824e779e5a65ccc956b8f607"
+  },
+  {
+    "type": "PICT",
+    "id": 20087,
+    "name": null,
+    "size": 281,
+    "file": "PICT_20087.bin",
+    "sha256": "e378a616eedf88a62dcdd627b78efda539a0859ee96a7636a3393a0781f7757f"
+  },
+  {
+    "type": "PICT",
+    "id": 20071,
+    "name": null,
+    "size": 550,
+    "file": "PICT_20071.bin",
+    "sha256": "e656d17fa5a057b1468e8cfd3ddd35a41c14fe45097b513f785ae0ec69d85501"
+  },
+  {
+    "type": "PICT",
+    "id": 20075,
+    "name": null,
+    "size": 107,
+    "file": "PICT_20075.bin",
+    "sha256": "9b1c24e1c6094bcf630318db6bb078ed6bdbd42b133c6852b173d45d7ec1a6c9"
+  },
+  {
+    "type": "PICT",
+    "id": 20095,
+    "name": null,
+    "size": 524,
+    "file": "PICT_20095.bin",
+    "sha256": "17a8b9118f10de1b6d8bbaa395853120e2643ded84ea2b398b0b4dca034c961b"
+  },
+  {
+    "type": "PICT",
+    "id": 21095,
+    "name": null,
+    "size": 534,
+    "file": "PICT_21095.bin",
+    "sha256": "865d5c21f8d610a99cb69ebe0f733da0f39373b4abb5b026e423e121266d1f14"
+  },
+  {
+    "type": "PICT",
+    "id": 20066,
+    "name": null,
+    "size": 161,
+    "file": "PICT_20066.bin",
+    "sha256": "d6826c0fafd7af5d1ce1ad864a6c207df1f5c75c2c1619f2e5b90f8c99a6c8dc"
+  },
+  {
+    "type": "PICT",
+    "id": 20079,
+    "name": null,
+    "size": 263,
+    "file": "PICT_20079.bin",
+    "sha256": "c1e55b0e96e7cf8d4bba09f229b63c8b1b1b67b5dc163b9f1e627c87a9ce7f0c"
+  },
+  {
+    "type": "PICT",
+    "id": 20065,
+    "name": null,
+    "size": 239,
+    "file": "PICT_20065.bin",
+    "sha256": "78159e96735a5252f4e325efbad5c00c4e713e8d1fd0e03fda57735848e38a4d"
+  },
+  {
+    "type": "PICT",
+    "id": 20070,
+    "name": null,
+    "size": 600,
+    "file": "PICT_20070.bin",
+    "sha256": "b37ccc007356617fca9f40f2e42d6d9d74463b2d41ec1365a3dd41669321da70"
+  },
+  {
+    "type": "PICT",
+    "id": 20164,
+    "name": null,
+    "size": 273,
+    "file": "PICT_20164.bin",
+    "sha256": "9889c753134d6f89e24435afcbbcdc27e838826c80464ebfa8fa6d0a5c9bdc49"
+  },
+  {
+    "type": "PICT",
+    "id": 20082,
+    "name": null,
+    "size": 421,
+    "file": "PICT_20082.bin",
+    "sha256": "e37511317665852f2f0dc23ef70887c23edc88b1f526af80f08c70a942b07ed1"
+  },
+  {
+    "type": "PICT",
+    "id": 20035,
+    "name": null,
+    "size": 654,
+    "file": "PICT_20035.bin",
+    "sha256": "369aad1cf389f2039d62528963a31bb1f54c7f2ccbc9ca721c4636d301118384"
+  },
+  {
+    "type": "PICT",
+    "id": 21080,
+    "name": null,
+    "size": 475,
+    "file": "PICT_21080.bin",
+    "sha256": "9591b005b0fe9bd30d29bff83117c3602d95bd284727be269b70e6b84cafaac6"
+  },
+  {
+    "type": "PICT",
+    "id": 20080,
+    "name": null,
+    "size": 468,
+    "file": "PICT_20080.bin",
+    "sha256": "c6d205361bcc44b74cd4ea09ee6cddf9dc11a1ad93440f5876f21d16d0a42595"
+  },
+  {
+    "type": "PICT",
+    "id": 21070,
+    "name": null,
+    "size": 467,
+    "file": "PICT_21070.bin",
+    "sha256": "5e50fb9d46501186df7d3b0bd05179d5a99eb3f230f1d48e6a577b072caa9699"
+  },
+  {
+    "type": "PICT",
+    "id": 21076,
+    "name": null,
+    "size": 341,
+    "file": "PICT_21076.bin",
+    "sha256": "7c7b6599fdcc0084131b820c7497fee5181056c809d7af43cad32e13c0bc73e3"
+  },
+  {
+    "type": "PICT",
+    "id": 20076,
+    "name": null,
+    "size": 341,
+    "file": "PICT_20076.bin",
+    "sha256": "894de648a6d8267417bdd783a925919c7dda7afd39c0eeea97f04bbf1a9b4c1b"
+  },
+  {
+    "type": "PICT",
+    "id": 20043,
+    "name": null,
+    "size": 121,
+    "file": "PICT_20043.bin",
+    "sha256": "a60657e2d3cf6d4b83bc56463abfab9b89b0562f4457bcb9a31f8d3fc8d5d549"
+  },
+  {
+    "type": "PICT",
+    "id": 20078,
+    "name": null,
+    "size": 345,
+    "file": "PICT_20078.bin",
+    "sha256": "dfde89b1f9ee582079c1e9ef7f0e2f238040faf938e456aa9273a9b2767e9c3d"
+  },
+  {
+    "type": "PICT",
+    "id": 21111,
+    "name": null,
+    "size": 728,
+    "file": "PICT_21111.bin",
+    "sha256": "3723586df5d48245b6db53f9ea9634200afab632c4c95e370713a733da03ede6"
+  },
+  {
+    "type": "PICT",
+    "id": 20111,
+    "name": null,
+    "size": 854,
+    "file": "PICT_20111.bin",
+    "sha256": "81e802ca457984b611a80bbca6727aaf3a4b304f4f0017b59158f0f121e8f5ed"
+  },
+  {
+    "type": "PICT",
+    "id": 20044,
+    "name": null,
+    "size": 137,
+    "file": "PICT_20044.bin",
+    "sha256": "262e88c3c7a82ee8cacf6dfb514591669718d4c5a9438db48fce3452fe3d920b"
+  },
+  {
+    "type": "PICT",
+    "id": 21074,
+    "name": null,
+    "size": 833,
+    "file": "PICT_21074.bin",
+    "sha256": "0837e7aa8dfe4adb2b8a16ab31656417d5d448ad3e663cf8f0f0927360272ce7"
+  },
+  {
+    "type": "PICT",
+    "id": 20074,
+    "name": null,
+    "size": 1532,
+    "file": "PICT_20074.bin",
+    "sha256": "fd6049fb16be93a43aa06e2a440d99a44912b650302e86583aac6ed6dfb50908"
+  },
+  {
+    "type": "PICT",
+    "id": 21088,
+    "name": null,
+    "size": 2669,
+    "file": "PICT_21088.bin",
+    "sha256": "d1856592b86d970ef035f0b5d769c049b2d9055e30998defeb347a7d20856593"
+  },
+  {
+    "type": "PICT",
+    "id": 20088,
+    "name": null,
+    "size": 2966,
+    "file": "PICT_20088.bin",
+    "sha256": "571838a215d70b646b2ea19c6ff5053446efb047329690c7643c712fa66b892b"
+  },
+  {
+    "type": "PICT",
+    "id": 20109,
+    "name": null,
+    "size": 1560,
+    "file": "PICT_20109.bin",
+    "sha256": "2bb58cccd63f689b0112d43e59e1e3d8da696840ec5679a9abf358634783a282"
+  },
+  {
+    "type": "PICT",
+    "id": 21109,
+    "name": null,
+    "size": 1368,
+    "file": "PICT_21109.bin",
+    "sha256": "73c81bcb832d18b16a1608a5bc11ce7a2367e1bb310d3473ff3447e8976d0932"
+  },
+  {
+    "type": "PICT",
+    "id": 21077,
+    "name": null,
+    "size": 885,
+    "file": "PICT_21077.bin",
+    "sha256": "234d1a504823ff14fcaadff487559a179234e670d464e7e5056e882369f52751"
+  },
+  {
+    "type": "PICT",
+    "id": 20077,
+    "name": null,
+    "size": 999,
+    "file": "PICT_20077.bin",
+    "sha256": "2f68d393ac599949596663d7080911ba70ef2ca76d2297279b382c11638b4605"
+  },
+  {
+    "type": "PICT",
+    "id": 21038,
+    "name": null,
+    "size": 829,
+    "file": "PICT_21038.bin",
+    "sha256": "84ddb7068307e761eb68da1225c76128d06f6101b5ae0fe15e5513612e9f24d5"
+  },
+  {
+    "type": "PICT",
+    "id": 20038,
+    "name": null,
+    "size": 992,
+    "file": "PICT_20038.bin",
+    "sha256": "e421b9bb8ca56be2789e26cf83fec0abefab4e58d66c454dcdf6742292318a48"
+  },
+  {
+    "type": "PICT",
+    "id": 21050,
+    "name": null,
+    "size": 877,
+    "file": "PICT_21050.bin",
+    "sha256": "272279fbb940b8e240762d5573e50832847bb65588e8d42b7dcda1800bf99898"
+  },
+  {
+    "type": "PICT",
+    "id": 20050,
+    "name": null,
+    "size": 851,
+    "file": "PICT_20050.bin",
+    "sha256": "a489f80d43570e7697129e12627e36de801f3e2d3b7b6c01740aa3cdf2fc3b50"
+  },
+  {
+    "type": "PICT",
+    "id": 21049,
+    "name": null,
+    "size": 1161,
+    "file": "PICT_21049.bin",
+    "sha256": "1f9889200011101db57433fa80c94b03bb058dee1cb176bbab250d3f1a2b7306"
+  },
+  {
+    "type": "PICT",
+    "id": 20049,
+    "name": null,
+    "size": 1883,
+    "file": "PICT_20049.bin",
+    "sha256": "8db3bfca374ff2dc5e944dc7f722faec8983a48b55d458a1a113d1a3414f8861"
+  },
+  {
+    "type": "PICT",
+    "id": 21051,
+    "name": null,
+    "size": 866,
+    "file": "PICT_21051.bin",
+    "sha256": "eb36dd3651749b4cfda770282f3707fd3d1af0382413383ce3fe0739b9057760"
+  },
+  {
+    "type": "PICT",
+    "id": 20051,
+    "name": null,
+    "size": 1018,
+    "file": "PICT_20051.bin",
+    "sha256": "8384a210475b738ea675c271fac86edc9e8d610222ea203d48057ac00c37a5bf"
+  },
+  {
+    "type": "PICT",
+    "id": 21064,
+    "name": null,
+    "size": 416,
+    "file": "PICT_21064.bin",
+    "sha256": "8959d8479777c89c9b4dff2be167bc0b16325be90041c46152f99447dc3202db"
+  },
+  {
+    "type": "PICT",
+    "id": 20064,
+    "name": null,
+    "size": 516,
+    "file": "PICT_20064.bin",
+    "sha256": "f1c845f9282dcf42682f0df1a20cd81b36bdbe379cfd67887f1e39faef7c19aa"
+  },
+  {
+    "type": "PICT",
+    "id": 21106,
+    "name": null,
+    "size": 2188,
+    "file": "PICT_21106.bin",
+    "sha256": "59d55ab5ce28e820c690a1079c1bb520889e6fa04d9b51e7b0af6325dc561f55"
+  },
+  {
+    "type": "PICT",
+    "id": 20106,
+    "name": null,
+    "size": 2371,
+    "file": "PICT_20106.bin",
+    "sha256": "e3334b7eeb0493e48758e589205a1e1351be0fc845bc3c1445e9e5d918ba4bba"
+  },
+  {
+    "type": "PICT",
+    "id": 2300,
+    "name": null,
+    "size": 1185,
+    "file": "PICT_2300.bin",
+    "sha256": "13a608e869d1a765dcbc9d1fc1063fe22c3322d35cad7f45a0d2390b4294814b"
+  },
+  {
+    "type": "PICT",
+    "id": 2301,
+    "name": null,
+    "size": 1185,
+    "file": "PICT_2301.bin",
+    "sha256": "018803a681cc5651324ed2a4868b6838062698860a50be2a3ad50626eeba1e20"
+  },
+  {
+    "type": "PICT",
+    "id": 2001,
+    "name": null,
+    "size": 4061,
+    "file": "PICT_2001.bin",
+    "sha256": "bbe653424aed39aeeb329220023c246d107ec0d8bfe5d69ccdee4a2c7039e3a1"
+  },
+  {
+    "type": "PICT",
+    "id": 2000,
+    "name": null,
+    "size": 4061,
+    "file": "PICT_2000.bin",
+    "sha256": "a1e60bff08d1b2cf8c0d1cde2fd81e654c151e3fca719ba9cbd2ab02623ba6bc"
+  },
+  {
+    "type": "PICT",
+    "id": 2600,
+    "name": null,
+    "size": 1817,
+    "file": "PICT_2600.bin",
+    "sha256": "245edd14f470971e6eddc96cd0dfafcd87a0bca72dac58696d76d7a6534573c4"
+  },
+  {
+    "type": "PICT",
+    "id": 2601,
+    "name": null,
+    "size": 1817,
+    "file": "PICT_2601.bin",
+    "sha256": "dcf32f0dbfa8e8a15e28cd7e0164360e6af2d34649c6d35a0ec401834a27e56f"
+  },
+  {
+    "type": "PICT",
+    "id": 20047,
+    "name": null,
+    "size": 1698,
+    "file": "PICT_20047.bin",
+    "sha256": "ba8118e3be180d367bb3336d664031dd74b62bfdd3a2883323e596a4c1ed2514"
+  },
+  {
+    "type": "PICT",
+    "id": 21047,
+    "name": null,
+    "size": 1697,
+    "file": "PICT_21047.bin",
+    "sha256": "4fce570564ce6c28fce87795f8a700adacaf40b362daf53c6bceb672ad2fc910"
+  },
+  {
+    "type": "ICON",
+    "id": 11698,
+    "name": null,
+    "size": 128,
+    "file": "ICON_11698.bin",
+    "sha256": "fe856f084db654fce1dd67ffff8e43e5b0feca48d8dbb48515696b97eaeec23b"
+  },
+  {
+    "type": "ICON",
+    "id": 0,
+    "name": null,
+    "size": 128,
+    "file": "ICON_0.bin",
+    "sha256": "65682852e406f1f58c74a1a20cc1edb155e1532c899a15eb35c444de44547fb2"
+  },
+  {
+    "type": "ICON",
+    "id": 2,
+    "name": null,
+    "size": 128,
+    "file": "ICON_2.bin",
+    "sha256": "2ca4d8b347fa3cda2a7591374a0bac734ad857f583cca7f6157afff0cef2c059"
+  },
+  {
+    "type": "ICN#",
+    "id": 130,
+    "name": null,
+    "size": 256,
+    "file": "ICN__130.bin",
+    "sha256": "248c29dabab7585a6982694b613595a98b05a1f267511382ce6d855e05737f90"
+  },
+  {
+    "type": "ICN#",
+    "id": 129,
+    "name": null,
+    "size": 256,
+    "file": "ICN__129.bin",
+    "sha256": "2042027a573f799e87a763db957a3085cec19a20398063f33107abb4325a6cf2"
+  },
+  {
+    "type": "ICN#",
+    "id": 128,
+    "name": null,
+    "size": 256,
+    "file": "ICN__128.bin",
+    "sha256": "004c3bf01fa5f3569310f9142ee055b4c32e61fdf47c834000198030b3677a13"
+  },
+  {
+    "type": "BNDL",
+    "id": 128,
+    "name": "SSRA",
+    "size": 44,
+    "file": "BNDL_128.bin",
+    "sha256": "ebae42477362cdf5b53fa164a58b30aa11593f20be487d4d57d461267db37b79"
+  },
+  {
+    "type": "FREF",
+    "id": 128,
+    "name": null,
+    "size": 7,
+    "file": "FREF_128.bin",
+    "sha256": "6ae70fda6b5f837884e8d6de071429e82370e929a86f133fd3c2b8775a9d594b"
+  },
+  {
+    "type": "FREF",
+    "id": 129,
+    "name": null,
+    "size": 7,
+    "file": "FREF_129.bin",
+    "sha256": "c63fc0ac92ec146c9488823ed7c2011f3b5e529975070dbe568afc7d30e53f43"
+  },
+  {
+    "type": "FREF",
+    "id": 130,
+    "name": null,
+    "size": 7,
+    "file": "FREF_130.bin",
+    "sha256": "ca07f1317a82d771395644726fa7201c60fcc9a8ec05ca5f999b3b404e5837d2"
+  },
+  {
+    "type": "DLOG",
+    "id": 19812,
+    "name": "Create Thing",
+    "size": 33,
+    "file": "DLOG_19812.bin",
+    "sha256": "696c527f04798ca481432e2efc240361e1aec3d76c5c5b3e4397ceba4c788989"
+  },
+  {
+    "type": "DLOG",
+    "id": 9318,
+    "name": "Amount",
+    "size": 27,
+    "file": "DLOG_9318.bin",
+    "sha256": "7afb659510a416d7b42f3538b95e48e717e66e0a6bc226d75b8950eeec048937"
+  },
+  {
+    "type": "DLOG",
+    "id": 7986,
+    "name": "Message",
+    "size": 28,
+    "file": "DLOG_7986.bin",
+    "sha256": "4d64d8161d290482ee7765a28801dddd01ed1d8172932ab553fc7ae612e82d21"
+  },
+  {
+    "type": "DLOG",
+    "id": 19662,
+    "name": "User Map",
+    "size": 24,
+    "file": "DLOG_19662.bin",
+    "sha256": "b52ed9447ced35ccd78770ff80d76ec549eed9b3a231a1c11a4dc6d72737e431"
+  },
+  {
+    "type": "DLOG",
+    "id": 21334,
+    "name": "Motion",
+    "size": 29,
+    "file": "DLOG_21334.bin",
+    "sha256": "f62c39a29b1e8580bead5104ea5c130fa3039a12b57903b9674ef11e1df05d14"
+  },
+  {
+    "type": "DLOG",
+    "id": 19722,
+    "name": "Status",
+    "size": 27,
+    "file": "DLOG_19722.bin",
+    "sha256": "f0976b605ebef0c2731d41eea1989474f271199729cf6e65a669ef2aff5d7501"
+  },
+  {
+    "type": "DLOG",
+    "id": 30000,
+    "name": "Pick Up",
+    "size": 28,
+    "file": "DLOG_30000.bin",
+    "sha256": "fa76ae379ecb01229a3eb5558e432761519577e1cad2b20bc4a9baeb56abcbec"
+  },
+  {
+    "type": "DLOG",
+    "id": 12574,
+    "name": "Binocs",
+    "size": 33,
+    "file": "DLOG_12574.bin",
+    "sha256": "d0d3a725a37637e4041018c2317b7224ac5c5d9e077c72d734db944f73aa7e65"
+  },
+  {
+    "type": "DLOG",
+    "id": 14707,
+    "name": "Name",
+    "size": 37,
+    "file": "DLOG_14707.bin",
+    "sha256": "8d30208c10f4993fb408519447f2b3ee4b913e44ebac3b97772ffa0cb0342987"
+  },
+  {
+    "type": "DLOG",
+    "id": 4007,
+    "name": "Full Status",
+    "size": 27,
+    "file": "DLOG_4007.bin",
+    "sha256": "6a769c9c75681977546f515ee7fe0a669217c2d982e1472ed670026137d7db22"
+  },
+  {
+    "type": "DLOG",
+    "id": 31162,
+    "name": "Top Scores",
+    "size": 32,
+    "file": "DLOG_31162.bin",
+    "sha256": "e5ae3e53fc9cf04d1c148b1a171c25681ecc1a42ee230d7d6b4a78ed1337316f"
+  },
+  {
+    "type": "DLOG",
+    "id": 2708,
+    "name": "Help Dialog",
+    "size": 21,
+    "file": "DLOG_2708.bin",
+    "sha256": "f83d63fd15efdb6bebe0684f89df744a0dcb28d4072ecee27ad96f8239513d5f"
+  },
+  {
+    "type": "DLOG",
+    "id": 3174,
+    "name": "Find Dean's List",
+    "size": 31,
+    "file": "DLOG_3174.bin",
+    "sha256": "d4c32a9747acdcbaa7a253df8cb5312eef10d5a282f82acb0ba4d01dcb1b1ab7"
+  },
+  {
+    "type": "DITL",
+    "id": 6692,
+    "name": null,
+    "size": 84,
+    "file": "DITL_6692.bin",
+    "sha256": "3d92eb7f65212c53af6468c33478af3799482094d29ca0180538fe6eca5b067a"
+  },
+  {
+    "type": "DITL",
+    "id": 12117,
+    "name": null,
+    "size": 40,
+    "file": "DITL_12117.bin",
+    "sha256": "287689c70bc1aebda2910b88a777bb2023c85d3104799dfb9cf908e3a9a81100"
+  },
+  {
+    "type": "DITL",
+    "id": 1992,
+    "name": null,
+    "size": 150,
+    "file": "DITL_1992.bin",
+    "sha256": "475df46d23dc70c06791dd12fa7cc3f8e2026df44823bc6cbee194c7afa51566"
+  },
+  {
+    "type": "DITL",
+    "id": 9211,
+    "name": null,
+    "size": 102,
+    "file": "DITL_9211.bin",
+    "sha256": "d4c2757ebab523b0998aab34450f52da13da691b77cea7732a396122c47447b4"
+  },
+  {
+    "type": "DITL",
+    "id": 7665,
+    "name": null,
+    "size": 70,
+    "file": "DITL_7665.bin",
+    "sha256": "20cd5851f1f8852561a323b4b889f3c0f1d278f596c6d5389a91ac177891a4fd"
+  },
+  {
+    "type": "DITL",
+    "id": 28345,
+    "name": null,
+    "size": 328,
+    "file": "DITL_28345.bin",
+    "sha256": "934c6cad418e9d7871ae82cac3926b518023fb176def3764ba7e024c30f455a3"
+  },
+  {
+    "type": "DITL",
+    "id": 20661,
+    "name": null,
+    "size": 168,
+    "file": "DITL_20661.bin",
+    "sha256": "8a7f403e6c68e36b1c0906745185e678739ad2bc94803e98fa09c0421852c328"
+  },
+  {
+    "type": "DITL",
+    "id": 19617,
+    "name": null,
+    "size": 100,
+    "file": "DITL_19617.bin",
+    "sha256": "855b2cbfcf4f3150848b6a847889a18cae5648940b4a5e38beb2b01641a64459"
+  },
+  {
+    "type": "DITL",
+    "id": 5835,
+    "name": null,
+    "size": 94,
+    "file": "DITL_5835.bin",
+    "sha256": "25645c1461d029e21766fda1bd74b8cba5eac796e20a3081d599acd1bc80559d"
+  },
+  {
+    "type": "DITL",
+    "id": 27780,
+    "name": null,
+    "size": 56,
+    "file": "DITL_27780.bin",
+    "sha256": "db02ea5665a887647f2615e41e5bde13584e6b11fb339ab3212bbf3938f7f388"
+  },
+  {
+    "type": "DITL",
+    "id": 17824,
+    "name": null,
+    "size": 240,
+    "file": "DITL_17824.bin",
+    "sha256": "f2890aa03c0bc7001674bc3969b94e5a9ada342d4ba35f82e3adabe1774bd385"
+  },
+  {
+    "type": "DITL",
+    "id": 6050,
+    "name": null,
+    "size": 74,
+    "file": "DITL_6050.bin",
+    "sha256": "9d3ee87121c25bd5b56b1c226413ea6f3b995ab45dd957062608f1b092c6bd9d"
+  },
+  {
+    "type": "DITL",
+    "id": 28567,
+    "name": null,
+    "size": 74,
+    "file": "DITL_28567.bin",
+    "sha256": "01d04d743e304477ccf639d436ba4a210302e26647e0218f7ba266db9194e3ad"
+  },
+  {
+    "type": "DITL",
+    "id": 13609,
+    "name": null,
+    "size": 104,
+    "file": "DITL_13609.bin",
+    "sha256": "eaaea4053643105ddca1ef4baafd666452050b2ea9b5406a9e63aa1202babffc"
+  },
+  {
+    "type": "DITL",
+    "id": 8641,
+    "name": null,
+    "size": 130,
+    "file": "DITL_8641.bin",
+    "sha256": "d8b1d438408d9b7f047512c769608d61094c76a7f079e3ead3de1a2835056bc3"
+  },
+  {
+    "type": "DITL",
+    "id": 16585,
+    "name": null,
+    "size": 206,
+    "file": "DITL_16585.bin",
+    "sha256": "8989568ee54b2b13b0d777d38faeb7050f912d70185497c3f21a482bf8185419"
+  },
+  {
+    "type": "DITL",
+    "id": 5975,
+    "name": null,
+    "size": 82,
+    "file": "DITL_5975.bin",
+    "sha256": "1f14a71abeecd87b51ae84e6b4c77f97f097ed86ac10e24bd723e62933b3e654"
+  },
+  {
+    "type": "DITL",
+    "id": 2004,
+    "name": null,
+    "size": 98,
+    "file": "DITL_2004.bin",
+    "sha256": "ecba2f2e70be4f46312381b7410381b9393c31c09f340e1c65a9d6188222eb37"
+  },
+  {
+    "type": "DITL",
+    "id": 5370,
+    "name": null,
+    "size": 88,
+    "file": "DITL_5370.bin",
+    "sha256": "6347c635d439c862cb52a1c7a3e06bd6dfa40cc8d478bedd77b42d3b98f3efbb"
+  },
+  {
+    "type": "DITL",
+    "id": 14130,
+    "name": null,
+    "size": 152,
+    "file": "DITL_14130.bin",
+    "sha256": "dfc853e5d682a686dbdc2feb796627640f35d8e454f270ee7f25ca076b5f6cb9"
+  },
+  {
+    "type": "DITL",
+    "id": 400,
+    "name": null,
+    "size": 78,
+    "file": "DITL_400.bin",
+    "sha256": "141f475dba8a0257794a92e1bd85fa9b23ec672e618e21a136ae6e50376d8724"
+  },
+  {
+    "type": "MENU",
+    "id": 130,
+    "name": null,
+    "size": 112,
+    "file": "MENU_130.bin",
+    "sha256": "1e6c1afe41444d33bbffc72501fdf20298ce9fe4b2b8b4c5584871fa905fe67f"
+  },
+  {
+    "type": "MENU",
+    "id": 128,
+    "name": null,
+    "size": 17,
+    "file": "MENU_128.bin",
+    "sha256": "eac91707ca458807ba0f728ae9334c1b11afa1d71aadf4ba7afa543734729876"
+  }
+]

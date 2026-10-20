@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Original graphics rendering check</title><style>body{font:16px monospace;background:#ddd}section{display:inline-block;margin:8px}canvas{width:608px;height:436px;image-rendering:pixelated;border:1px solid}h2{font-size:16px}</style></head><body><h1>Originalgrafiken · Perspektivprüfung</h1><nav><a href="#plank-1">Brett</a> · <a href="#gold-1">Gold</a></nav><main></main><script type="module">
+import {drawView,loadGraphics} from '/render.js';
+import {wallScene} from '/__wall-scenes.js';
+await loadGraphics();
+for(const [kind,depth] of [['left',1],['left',2],['both',1],['right',1],['return',1]]){
+ const section=document.createElement('section'),h=document.createElement('h2'),canvas=document.createElement('canvas');h.textContent=`Wandprüfung · ${kind} · Tiefe ${depth}`;canvas.width=304;canvas.height=218;section.append(h,canvas);document.querySelector('main').append(section);drawView(canvas,wallScene(kind,depth));
+}
+for(const type of ['plank','gold'])for(const distance of [1,2,3]){
+ const n=6,cells=Array.from({length:n*n},()=>({walls:[true,true,true,true],items:[]}));
+ for(let y=0;y<5;y++){cells[y*n].walls[2]=false;cells[(y+1)*n].walls[0]=false;}
+ cells[distance*n].items=[{type,qty:1}];
+ const section=document.createElement('section'),h=document.createElement('h2'),canvas=document.createElement('canvas');section.id=`${type}-${distance}`;h.textContent=`${type} · ${distance} Feld(er)`;canvas.width=304;canvas.height=218;section.append(h,canvas);document.querySelector('main').append(section);drawView(canvas,{x:0,y:0,n,dir:2,cells,exit:35,lit:true});
+}
+</script></body></html>

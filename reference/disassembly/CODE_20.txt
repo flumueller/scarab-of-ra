@@ -1,0 +1,65 @@
+
+FUNCTION pickcompass [CODE 20 0x0..0x22]
+
+0000: 8600                 or.b         d0, d3
+0002: 00044e56             ori.b        #$56, d4
+0006: 0000206e             ori.b        #$6e, d0
+000a: 0008                 .byte        0x00, 0x08
+000c: 082800060009         btst.b       #$6, $9(a0)
+0012: 660a                 bne.b        $1e
+0014: 1b7c0001969e         move.b       #$1, -$6962(a5)
+001a: 4ead0482             jsr          $482(a5)
+001e: 4e5e                 unlk         a6
+0020: 4e75                 rts          
+
+FUNCTION dropcompass [CODE 20 0x30..0x64]
+
+0030: 4e560000             link.w       a6, #$0
+0034: 2f0c                 move.l       a4, -(a7)
+0036: 286d9672             movea.l      -$698e(a5), a4
+003a: 6016                 bra.b        $52
+003c: 206e0008             movea.l      $8(a6), a0
+0040: 3014                 move.w       (a4), d0
+0042: b050                 cmp.w        (a0), d0
+0044: 6608                 bne.b        $4e
+0046: 082c00060009         btst.b       #$6, $9(a4)
+004c: 6710                 beq.b        $5e
+004e: 286c0014             movea.l      $14(a4), a4
+0052: 200c                 move.l       a4, d0
+0054: 66e6                 bne.b        $3c
+0056: 422d969e             clr.b        -$6962(a5)
+005a: 4ead0482             jsr          $482(a5)
+005e: 285f                 movea.l      (a7)+, a4
+0060: 4e5e                 unlk         a6
+0062: 4e75                 rts          
+
+FUNCTION throwcompass [CODE 20 0x72..0x84]
+
+0072: 4e560000             link.w       a6, #$0
+0076: 206e0008             movea.l      $8(a6), a0
+007a: 2f10                 move.l       (a0), -(a7)
+007c: 4ebaffb2             jsr          $30(pc)
+0080: 4e5e                 unlk         a6
+0082: 4e75                 rts          
+
+FUNCTION usecompass [CODE 20 0x94..0xd6]
+
+0094: 4e560000             link.w       a6, #$0
+0098: 206e0008             movea.l      $8(a6), a0
+009c: 082800060009         btst.b       #$6, $9(a0)
+00a2: 6722                 beq.b        $c6
+00a4: 4a2d969e             tst.b        -$6962(a5)
+00a8: 670e                 beq.b        $b8
+00aa: 2f3c00002af6         move.l       #$2af6, -(a7)
+00b0: 4ead040a             jsr          $40a(a5)
+00b4: 588f                 addq.l       #$4, a7
+00b6: 601a                 bra.b        $d2
+00b8: 2f3c00002b34         move.l       #$2b34, -(a7)
+00be: 4ead040a             jsr          $40a(a5)
+00c2: 588f                 addq.l       #$4, a7
+00c4: 600c                 bra.b        $d2
+00c6: 2f3c00002b4e         move.l       #$2b4e, -(a7)
+00cc: 4ead040a             jsr          $40a(a5)
+00d0: 588f                 addq.l       #$4, a7
+00d2: 4e5e                 unlk         a6
+00d4: 4e75                 rts          
