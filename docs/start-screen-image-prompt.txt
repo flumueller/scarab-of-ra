@@ -1,5 +1,5 @@
 Generated with the built-in Imagegen tool.
-Asset: prototype/dist/assets/start-screen-pyramid.png
+Asset: dist/assets/start-screen-pyramid.png
 
 Use case: stylized-concept.
 Asset type: high-resolution widescreen background artwork for the entry / main menu screen of Scarab of Ra, a classic Macintosh Egyptian exploration adventure. Generate at 3840x2160 (16:9) if supported, highest available resolution.

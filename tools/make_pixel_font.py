@@ -8,7 +8,7 @@ from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.ttGlyphPen import TTGlyphPen
-root=Path(__file__).resolve().parents[1];assets=root/'prototype/dist/assets'
+root=Path(__file__).resolve().parents[1];assets=root/'dist/assets'
 f=ImageFont.truetype(str(assets/'ChicagoFLF.ttf'),12);chars=list(range(32,256))+[0x2026,0x2019,0x2018,0x201c,0x201d,0x2013,0x2014,0x2190,0x2191,0x2192,0x2193,0x2713,0xf8ff]
 order=['.notdef']+[f'uni{c:04X}' for c in chars];glyphs={};metrics={}
 for name,cp in zip(order,[63]+chars):

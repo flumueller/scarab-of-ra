@@ -12,7 +12,7 @@ coverage/
 /reference/original/
 /reference/extracted/
 /reference/resources/
-/prototype/dist/assets/menu-music.m4a
+/dist/assets/menu-music.m4a
 
 # Local hosting/editor metadata
 .openai/

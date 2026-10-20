@@ -1,0 +1,14 @@
+node_modules
+.env*
+tests
+research
+art-prompts
+*.log
+
+.git
+.openai
+reference
+tools
+docs
+*-preview.png
+dist/assets/menu-music.m4a

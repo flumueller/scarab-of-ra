@@ -11,4 +11,4 @@ for row,key in zip(rows,keys):
  row['interval']=struct.unpack_from('>h',b,len(b)-0x15d0+60*row['id']+10)[0]
  row['breakable']=bool(row['flags']&0x200000)
  if key in ['food','oil','gold']:row['unit']='pints' if key=='oil' else 'ounces'
-(root/'prototype/dist/item-types.js').write_text('// Extracted from Scarab 1.4 DATA/ZERO, 33 records at A5-$15d0.\nexport const TYPES='+json.dumps(rows,indent=2)+';\nexport const ITEMS=Object.fromEntries(TYPES.map(t=>[t.type,t]));\n')
+(root/'dist/item-types.js').write_text('// Extracted from Scarab 1.4 DATA/ZERO, 33 records at A5-$15d0.\nexport const TYPES='+json.dumps(rows,indent=2)+';\nexport const ITEMS=Object.fromEntries(TYPES.map(t=>[t.type,t]));\n')

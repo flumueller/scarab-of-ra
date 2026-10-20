@@ -101,11 +101,11 @@ Die Konturen gerader Seitenwände erhalten keine senkrechten Linien an künstlic
 
 Die Oberfläche verwendet nun eine gerasterte 12-Pixel-Variante der vorhandenen ChicagoFLF-Ersatzschrift sowie ganzzahlige 1×-/2×-Darstellung. **Dies ist weiterhin keine Extraktion der originalen Macintosh-Systemschrift.**
 
-16 Tests bestanden, einschliesslich Objektgrössen, fehlender Trennlinien in geraden Gängen und vorhandener Grafikressourcen. Lokale Browsersichtprüfung: Brett und Gold je in drei Entfernungen, Interface in 1× und 2×. Reproduzierbare Szene: `prototype/tests/render-check.html`, über den Entwicklungsserver unter `/__render-check`. Diese Grafikprüfung ersetzt weder den offenen Vergleich aller Spielmechaniken noch einen vollständigen Bildvergleich gegen den Emulator.
+16 Tests bestanden, einschliesslich Objektgrössen, fehlender Trennlinien in geraden Gängen und vorhandener Grafikressourcen. Lokale Browsersichtprüfung: Brett und Gold je in drei Entfernungen, Interface in 1× und 2×. Reproduzierbare Szene: `tests/render-check.html`, über den Entwicklungsserver unter `/__render-check`. Diese Grafikprüfung ersetzt weder den offenen Vergleich aller Spielmechaniken noch einen vollständigen Bildvergleich gegen den Emulator.
 
 ## Mechanikdurchgang — 15. Oktober 2026
 
-Die vereinfachte Verteilung garantierter Vorräte wurde ersetzt. Die 33 Original-Typdatensätze sind als `prototype/dist/item-types.js` exportiert. Interne Tiefe = angezeigte Ebene +2; die Tiefe steigt auch nach dem Grössenlimit 20×20 weiter. Auswahlgewichte, Mengen und Tiefengrenzen folgen DATA/ZERO und CODE 9:0bc4, CODE 30:0450. Auf jedem Feld höchstens eine Falle; belegte Fallenfelder werden wie in CODE 9:0a58 weitergeschoben. Wandbilder, Inschriften, Bankfächer, Schlüssel, Benchmarks und Relikte sind getrennte Einrichtungsarten.
+Die vereinfachte Verteilung garantierter Vorräte wurde ersetzt. Die 33 Original-Typdatensätze sind als `dist/item-types.js` exportiert. Interne Tiefe = angezeigte Ebene +2; die Tiefe steigt auch nach dem Grössenlimit 20×20 weiter. Auswahlgewichte, Mengen und Tiefengrenzen folgen DATA/ZERO und CODE 9:0bc4, CODE 30:0450. Auf jedem Feld höchstens eine Falle; belegte Fallenfelder werden wie in CODE 9:0a58 weitergeschoben. Wandbilder, Inschriften, Bankfächer, Schlüssel, Benchmarks und Relikte sind getrennte Einrichtungsarten.
 
 | Bereich | Jetzt implementiert | Originalbeleg |
 | --- | --- | --- |

@@ -5,7 +5,7 @@ from pathlib import Path
 import struct,json
 from PIL import Image,ImageDraw
 root=Path(__file__).resolve().parents[1]
-out=root/'prototype/dist/assets';out.mkdir(exist_ok=True)
+out=root/'dist/assets';out.mkdir(exist_ok=True)
 def decode(data):
  pos=10
  def take(n):

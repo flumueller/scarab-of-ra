@@ -1,4 +1,4 @@
-// Original-code evidence and known limits: ../../docs/originalvergleich.md.
+// Original-code evidence and known limits: ../docs/originalvergleich.md.
 import {generateMaze} from './maze.js';
 import {TYPES,ITEMS} from './item-types.js';
 import {itemPurpose} from './item-info.js';

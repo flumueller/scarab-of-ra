@@ -42,7 +42,7 @@ For a connection outside a trusted private network, configure verified TLS throu
 node-postgres; do not disable certificate validation. `.env.example` is only a
 reference: npm scripts do not automatically load `.env` files.
 
-From `prototype/`, using Node.js 22 or newer:
+From the repository root, using Node.js 22 or newer:
 
 ```sh
 npm ci
@@ -64,7 +64,7 @@ first on equal points). UUID submission keys make retries idempotent.
 
 Create a Dockerfile application from the GitHub repository:
 
-- Build context / base directory: `prototype`
+- Build context / base directory: `/` (repository root)
 - Dockerfile: `Dockerfile`
 - Container port: `4173`
 - Health check: `/healthz` (also checks database access)
