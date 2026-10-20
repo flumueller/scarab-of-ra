@@ -27,6 +27,7 @@ Main menu|Hauptmenü
 Start navigation|Startmenü
 Menu bar|Menüleiste
 AN EXPEDITION INTO THE GREAT PYRAMID|EINE EXPEDITION IN DIE GROSSE PYRAMIDE
+Play sound|Musik abspielen
 Enable menu music|Menümusik einschalten
 Menu music: on · mute|Menümusik: an · ausschalten
 Menu music: off · enable|Menümusik: aus · einschalten
