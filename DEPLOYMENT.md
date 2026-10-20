@@ -108,3 +108,25 @@ and allows 60 POST attempts per minute per process. This is an anonymous casual
 leaderboard: the browser calculates the score, so knowledgeable players can
 forge submissions. No server-side gameplay replay or anti-cheat guarantee is
 implemented. The burst limiter is local to each app process and resets on restart.
+
+## Production deployment
+
+Production URL: https://scarab-of-ra.flurin-mueller.com
+
+Coolify builds the `scarab-of-ra` application from this repository's `main`
+branch using the root Dockerfile. A signed GitHub push webhook triggers automatic
+production deployments. Other branches do not update production.
+
+The separate Coolify resource `scarab-postgres` holds a persistent `scarab`
+database and a non-superuser `scarab` login. Its port is private. `DATABASE_URL`
+and `PUBLIC_ORIGIN` are configured in Coolify, outside this repository.
+The initial schema is installed; future schema changes require running
+`npm run migrate` before deploying code that requires those changes.
+
+The Coolify health check uses Node.js to fetch `/healthz`, because the slim image
+has neither curl nor wget. This endpoint also checks database access.
+Only the exact POST path `/webhooks/source/github/events/manual` is routed to
+Coolify through the game's HTTPS domain. Administration stays behind the SSH
+tunnel, and webhook signatures are verified by Coolify.
+
+External database backups and a restore test remain to be configured.
