@@ -1,0 +1,86 @@
+# JSON is valid YAML. No automatic merging or production credentials.
+{
+  "version": 2,
+  "updates": [
+    {
+      "package-ecosystem": "github-actions",
+      "directories": [
+        "/"
+      ],
+      "schedule": {
+        "interval": "weekly",
+        "day": "monday",
+        "time": "08:00",
+        "timezone": "Europe/Zurich"
+      },
+      "open-pull-requests-limit": 3,
+      "groups": {
+        "minor-and-patch": {
+          "patterns": [
+            "*"
+          ],
+          "update-types": [
+            "minor",
+            "patch"
+          ]
+        }
+      }
+    },
+    {
+      "package-ecosystem": "npm",
+      "directories": [
+        "/"
+      ],
+      "schedule": {
+        "interval": "weekly",
+        "day": "monday",
+        "time": "08:00",
+        "timezone": "Europe/Zurich"
+      },
+      "open-pull-requests-limit": 3,
+      "groups": {
+        "minor-and-patch": {
+          "patterns": [
+            "*"
+          ],
+          "update-types": [
+            "minor",
+            "patch"
+          ]
+        }
+      }
+    },
+    {
+      "package-ecosystem": "docker",
+      "directories": [
+        "/"
+      ],
+      "schedule": {
+        "interval": "weekly",
+        "day": "monday",
+        "time": "08:00",
+        "timezone": "Europe/Zurich"
+      },
+      "open-pull-requests-limit": 3,
+      "groups": {
+        "minor-and-patch": {
+          "patterns": [
+            "*"
+          ],
+          "update-types": [
+            "minor",
+            "patch"
+          ]
+        }
+      },
+      "ignore": [
+        {
+          "dependency-name": "postgres",
+          "update-types": [
+            "version-update:semver-major"
+          ]
+        }
+      ]
+    }
+  ]
+}
