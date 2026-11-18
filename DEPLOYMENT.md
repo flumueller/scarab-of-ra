@@ -121,7 +121,7 @@ The separate Coolify resource `scarab-postgres` holds a persistent `scarab`
 database and a non-superuser `scarab` login. Its port is private. `DATABASE_URL`
 and `PUBLIC_ORIGIN` are configured in Coolify, outside this repository.
 The initial schema is installed; future schema changes require running
-`npm run migrate` before deploying code that requires those changes.
+`node backend/migrate.mjs` inside the production image before deploying code that requires those changes.
 
 The Coolify health check uses Node.js to fetch `/healthz`, because the slim image
 has neither curl nor wget. This endpoint also checks database access.
@@ -130,3 +130,10 @@ Coolify through the game's HTTPS domain. Administration stays behind the SSH
 tunnel, and webhook signatures are verified by Coolify.
 
 External database backups and a restore test remain to be configured.
+
+### Production runtime
+
+The final image contains Node.js and production dependencies, without npm or npx.
+It starts directly with `node server.mjs`; dependency installation stays in the
+build stage. Local npm commands remain unchanged. For a one-off migration in
+the production image, use `node backend/migrate.mjs`.
